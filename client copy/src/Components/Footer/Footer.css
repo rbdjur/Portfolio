@@ -1,0 +1,117 @@
+/* Footer CSS */
+
+/* Details - Projects / Work / About Me */
+.sticky-footer-css {
+    /* height: 100vh; */
+    height:82vh;
+    /* display: -webkit-flex;
+    display: -ms-flexbox; */
+    /* display: fixed; */
+    background-color: #2c3840;
+    align-content: center;  
+    align-items: center;
+    widows: 50vw;;
+  }
+
+  /* End of Details - Projects / Work / About Me */
+
+  
+  .sticky-footer-css-body {
+    overflow: auto;
+    background-color:red;
+    border: 2px solid blue;
+  }
+  
+  .sticky-footer-css .header .menu a {
+    /* color: #fff; */
+    color:teal;
+    background-color:red;
+    border: 2px solid blue;
+  }
+  
+  .sticky-footer-css .body-content {
+    background-color:silver;
+  }
+  
+  .sticky-footer-css .footer {
+    height: 100vh;
+    /* background-color: #2c3840; */
+    background-color: blue;
+    color: red;
+    /* padding: 5px 5px 5px 5px; */
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* margin: 5px; */
+    /* width: 80rem; */
+    /* width: 100vw; */
+    width:100%;
+    position: fixed;
+  }
+  
+  .sticky-footer-css .footer .menu a {
+    color: #fff;
+    /* background-color: yellow; */
+  }
+
+  .container {
+    border:2px lightgreen solid;
+  }
+
+
+  /* Contact box */
+
+  /* Div for contact info */
+  #contact-div {
+    z-index: 1;
+    position: absolute;
+    width:absolute 49vw;
+    background-color:yellow;
+    align-content: center;
+    align-items: center;
+  }
+
+  /* Contact Info with Contact information */
+  #contact {
+    position: fixed;
+    align-items: center;
+    align-content: center;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    border:2px solid purple;
+    z-index:1;
+    width:43vw;
+    padding-right: 10px;
+    height: 11rem;
+    background-color:#2c3840;
+  }
+
+  #important {
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+
+/* End of Contact box */
+
+
+  #this {
+    background-color:red;
+    position:relative;
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+    z-index:0;
+    color:purple;
+  }
+
+  #that {
+    position: relative;;
+    z-index:0;
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+    border: 2px rgb(228, 13, 13) solid;
+    width: 50vw;
+  }
+

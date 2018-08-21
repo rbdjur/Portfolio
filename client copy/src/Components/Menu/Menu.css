@@ -1,0 +1,13 @@
+#menu {
+    position: fixed;
+    width: 4rem wh;
+    border: 2px solid cornflowerblue;
+    margin-left:10px;
+    margin-top:10px;
+    background:gray;
+    align-content: center;
+    align-items: center;
+    text-decoration: underline;
+    z-index:1;
+}
+

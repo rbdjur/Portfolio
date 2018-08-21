@@ -1,0 +1,10 @@
+.container {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#work {
+    background-color: darkred;
+    color:whitesmoke
+}

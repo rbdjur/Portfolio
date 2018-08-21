@@ -1,0 +1,11 @@
+#text {
+    color: teal;
+    align-content: center;
+    background-color:silver;
+    
+}
+
+:hoover {
+    color:darkgray;
+    transition: color 4.5s ease-in;
+}
