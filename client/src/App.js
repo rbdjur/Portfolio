@@ -38,8 +38,12 @@ class App extends Component {
       >
         <Navbar/>
         <Jumbotron/>
+        <div className="" id="lol">
         <Footer/>
+        </div>
         <Body/>
+        <Footer/>
+
         
 
       {/* <Menu/>

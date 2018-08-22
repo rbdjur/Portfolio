@@ -2,11 +2,13 @@
 #footer {
     border:2px solid green;
     width:100vw;
-    height:80%;
-    max-width:100vw;
+    height:90%;
+    /* max-width:100%; */
+    /* width:relative; */
+    /* max-width:100%; */
     position:fixed;
     background-color:whitesmoke;
-    top:34rem;
+    top:545px;
     z-index: 0;
     background-color: darkred;
     color:whitesmoke;
@@ -14,6 +16,7 @@
     align-items: center;
     text-align: center;
     padding-top:10px;
+    /* padding-bottom:20px */
 }
 
 
@@ -21,9 +24,29 @@
     align-content: center;
     align-items: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color:white;
-    background-color:darkred
+    background-color:darkred;
+    padding-bottom:10px;
+    height: 50px;
+    border: 2px solid thistle;
+    /* overflow: hidden; */
+    display:flex;
+    padding-left:30px;
+}
+
+#location {
+    border:2px solid khaki;
+
+}
+
+#full-stack{
+    border: 2px solid olive;
+
+}
+
+#email{
+    border: 2px solid lightseagreen;
 }
 
 /* #empty {

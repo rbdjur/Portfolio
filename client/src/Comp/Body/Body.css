@@ -1,5 +1,5 @@
 #thing {
-    position: relative;
+    /* position: relative; */
 }
 
 #title {
@@ -41,10 +41,14 @@
 
 #body {
     z-index: -1;
-    /* font-size: 3rem; */
     position:relative;
 }
 
 #work {
     text-align:center;
+    border: 2px solid plum
+}
+
+#pic {
+    border: 2px solid goldenrod;
 }

@@ -12,6 +12,11 @@
 
 #box {
     border: solid 2px yellow;
+    align-content: center;
+    align-items: center;
+    text-align:center;
+    float:right;
+    
     /* display:flex; */
 }
 
@@ -26,6 +31,7 @@
   }
 
   body {
-    padding-top: 54px;
-    /* display:flex; */
+
+    /* This is important /*
+    /* padding-top: 54px; */
   }
