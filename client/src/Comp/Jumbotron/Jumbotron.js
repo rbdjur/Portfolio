@@ -27,12 +27,44 @@ class Jumbotron extends Component {
                     <ul>Clean</ul>
                     <ul>Direct</ul>
                 </ul> */}
-                <ul id="attr">
-                    Simplistic |
-                    Clean |
-                    Direct
+
+                
+                <ul
+                //  id="attr"
+                 >
+                <div className="row" id="symbols">
+                <div className="col-4" id="simp">
+                    Simplistic
+                </div>
+                <div className="col-4">
+                Clean 
+                </div>  
+                <div className="col-4" id="direct">
+                Direct
+                </div>
+                </div>
+
+                <div className="row" id="symbols">
+
+                <div className="" id="horizontal">
+                <i class="fas fa-grip-horizontal"></i>
+                </div>
+
+                <div className="" id="rec">
+                <i class="fas fa-recycle"></i>
+                </div>
+                
+                <div className="" id="dir">
+                <i class="fas fa-directions"></i>
+                </div>
+
+                {/* <i class="fas fa-project-diagram"></i>
+                
+                <i class="fas fa-handshake"></i> */}
+                </div>
                 </ul>
                 </div>
+
 
                 /* <div className="" id="footer">
                 <Footer/>

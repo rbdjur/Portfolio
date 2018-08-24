@@ -14,13 +14,15 @@ class Footer extends Component {
                <div className="row">
 
                <div className="col-3" id="icon">
-                        <i class="fab fa-github"></i>
+                        <a>
+                        <i class="fab fa-github"  href="https://github.com/rbdjur"></i>
 
-                        <i class="fab fa-facebook"></i>
+                        {/* <i class="fab fa-facebook"></i> */}
 
                         <i class="fab fa-twitter-square"></i>
 
                         <i class="fab fa-linkedin"></i>
+                        </a>
                 </div>
 
 

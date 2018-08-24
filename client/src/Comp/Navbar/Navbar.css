@@ -7,8 +7,9 @@
     align-items: center */
     height: 4rem;
     border: 2px solid aqua;
+    background-color: darkred;
 }
 
 #pills {
-    /* color:darkred; */
+    color:darkred;
 }

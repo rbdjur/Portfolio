@@ -5,6 +5,18 @@ import "./Body.css"
 import Work from "./Work"
 import "./Work"
 
+import PL1 from "./PL1.png";
+
+import GGB1 from "./GGB1.jpeg";
+
+import GGB2 from "./GGB2.jpeg";
+
+import SFSky from "./SFSky.png";
+
+import SFSky2 from "./SFSky2.jpeg";
+
+
+
 
 
 
@@ -37,15 +49,46 @@ class Body extends Component {
                 <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" id="body">
 
                 <div className="wrapper" id="pic">
-                
-                Insert pic of the painted lady houses in SF in this space. 
+
+                {/* PL 1 */}
+
+                {/* <img id="PL1" src={PL1}/> */}
+
+                {/* GGB1 */}
+
+                 {/* <img id="GGB1" src={GGB1}/> */}
+
+                {/* GGB2 */}
+
+                {/* <img id="GGB2" src={GGB2}/> */}
+
+                {/* SFSky */}
+
+                {/* <img id="SFSky" src={SFSky}/> */}
+
+                {/* SFSky2 */}
+
+                <img id="SFSky2" src={SFSky2}/>
+                </div>
+
+
+                {/* Insert pic of the painted lady houses in SF in this space.  */}
 
                     <h4 id="about">
                     <About/>
                     </h4>
 
                     <div className="container">
-                    <p id="text">...</p>
+                    <p id="text">
+
+                    I am a full stack web developer based out of the Bay Area, CA.  I have 2.5 years of healthcare and medical experience working with patients in physical therapy setting, Emergency Medical Services (EMT), and M.D.'s, and researchers at Neuroscape Lab at UCSF. 
+
+                    <br/>
+                    
+                    In addition to my health/medical background, I expanded my skillset, which now includes computer programming and hard skills operating and using SalesForce software.
+                    <br/>
+
+                    </p>
                     </div>
 
                     <h4 id="work">
@@ -58,7 +101,7 @@ class Body extends Component {
                     >
                     <Work/>
                     </div>
-                    </div>
+                    {/* </div> */}
 
                     
                     
