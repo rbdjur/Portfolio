@@ -32,16 +32,22 @@ class Jumbotron extends Component {
                 <ul
                 //  id="attr"
                  >
-                <div className="row" id="symbols">
+                <div className="row" 
+                id="symbols"
+                >
+
                 <div className="col-4" id="simp">
                     Simplistic
                 </div>
-                <div className="col-4">
+
+                <div className="col-4" id="clean">
                 Clean 
                 </div>  
+
                 <div className="col-4" id="direct">
                 Direct
                 </div>
+
                 </div>
 
                 <div className="row" id="symbols">
@@ -55,29 +61,26 @@ class Jumbotron extends Component {
                 </div>
                 
                 <div className="" id="dir">
-                <i class="fas fa-directions"></i>
+                <i class="fas fa-project-diagram"></i>
+
                 </div>
 
-                {/* <i class="fas fa-project-diagram"></i>
-                
-                <i class="fas fa-handshake"></i> */}
                 </div>
                 </ul>
                 </div>
 
 
+
+
+
+
+
+
+
+
                 /* <div className="" id="footer">
                 <Footer/>
                 </div> */
-
-
-
-
-
-
-
-
-
 
                         /* Contact Me */
                    

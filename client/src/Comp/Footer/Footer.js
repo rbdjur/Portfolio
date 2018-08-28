@@ -3,6 +3,35 @@ import "./Footer.css"
 
 
 class Footer extends Component {
+    handleClick() {
+        console.log("clicked");
+    }
+
+
+    constructor(props) {
+        super(props);
+
+        // this.handleClick = this.handleClick.bind(this);
+
+        //State
+        this.state = {
+            github:"https://github.com/rbdjur",
+            linkedin:"www.linkedin.com/in/ronaldodeguzman",
+            twitter:"https://twitter.com/code_Ronaldo",
+        };
+    
+    console.log("this.state.github", this.state.github);
+    console.log("handleClick()", this.handleClick);
+    }
+
+
+
+
+
+
+
+
+
     render() {
         return (
 
@@ -15,7 +44,11 @@ class Footer extends Component {
 
                <div className="col-3" id="icon">
                         <a>
-                        <i class="fab fa-github"  href="https://github.com/rbdjur"></i>
+                        <i class="fab fa-github"
+
+                        //   value={this.state.github} 
+
+                          onClick={this.handleClick}></i>
 
                         {/* <i class="fab fa-facebook"></i> */}
 

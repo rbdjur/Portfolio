@@ -2,7 +2,7 @@
     height:44rem;
     align-content: center;
     align-items: center;
-    /* display:block; */
+    display:block;
     text-align: center;
     z-index: 1;
     border: 2px solid royalblue;
@@ -48,15 +48,14 @@
     text-align: center;
     /* top:24px; */
     margin-bottom:3rem;
-    background-color:darkred;
+    background-color:maroon;
     /* white-space: nowrap; */
     /* text-align:center; */
     font-size: 3.0rem;
     color:white;
     justify-content:space-evenly;
-    /* padding-right:3rem; */
-
-    /* display: flex; */
+    padding-right:3rem;
+    display: flex;
     /* justify-content:space-evenly; */
     /* text-align: justify; */
     /* display:inline; */
@@ -65,12 +64,13 @@
 #symbols {
     border: solid 3px blue;
     justify-content:space-evenly;
-    background-color: darkred;
+    background-color: maroon;
     font-size: 3.0rem;
-    align-content: center;
+    /* align-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
     color:white;
+    margin-right: 1rem;
 
     /* word-spacing: 10rem; */
     
@@ -81,15 +81,19 @@
 
 }
 
+#clean {
+    text-align:center;
+}
+
 #direct {
     text-align: left;
 
 }
 
 #dir {
-    align-content: left;
+    /* align-content: left;
     align-items: left;
-    text-align: left;
+    text-align: left; */
     justify-content: space-evenly;
     color:skyblue;
 }
@@ -100,7 +104,6 @@
 
 #rec {
     color:aquamarine;
-
 
 }
 

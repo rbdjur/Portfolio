@@ -23,7 +23,8 @@
     /* position:relative; */
     /* z-index: -1; */
     /* width: absolute; */
-    text-align: justify;
+    text-align: left;
+    background-color:whitesmoke;
     padding: 15px 15px 15px 15px;
 }
 

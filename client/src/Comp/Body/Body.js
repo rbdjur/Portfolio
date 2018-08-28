@@ -84,6 +84,7 @@ class Body extends Component {
                     I am a full stack web developer based out of the Bay Area, CA.  I have 2.5 years of healthcare and medical experience working with patients in physical therapy setting, Emergency Medical Services (EMT), and M.D.'s, and researchers at Neuroscape Lab at UCSF. 
 
                     <br/>
+                    <br/>
                     
                     In addition to my health/medical background, I expanded my skillset, which now includes computer programming and hard skills operating and using SalesForce software.
                     <br/>
