@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Jumbotron.css"
 import ProfilePic from "./me.jpeg";
-import Footer from "../Footer/Footer"
+// import Footer from "../Footer/Footer"
 
 
 
@@ -9,10 +9,10 @@ class Jumbotron extends Component {
     render() {
         return (
             // <div>
-            <div class="jumbotron" id="jumbotron-div">
+            <div className="jumbotron" id="jumbotron-div">
 
                 <div className="container" >
-                    <img className="portfolio-hero-header-logo" id="jumbotron-photo" src={ProfilePic} />
+                    <img className="portfolio-hero-header-logo" id="jumbotron-photo" src={ProfilePic} alt="" />
                 </div>
 
                 <h1 className="portfolio-hero-header-h1" id="jumbotron-name">
@@ -53,18 +53,17 @@ class Jumbotron extends Component {
                 <div className="row" id="symbols">
 
                 <div className="" id="horizontal">
-                <i class="fas fa-grip-horizontal"></i>
+                <i className="fas fa-grip-horizontal"></i>
                 </div>
 
                 <div className="" id="rec">
-                <i class="fas fa-recycle"></i>
+                <i className="fas fa-recycle"></i>
                 </div>
                 
                 <div className="" id="dir">
-                <i class="fas fa-project-diagram"></i>
+                <i className="fas fa-project-diagram"></i>
 
                 </div>
-
                 </div>
                 </ul>
                 </div>

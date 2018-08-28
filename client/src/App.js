@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
 
-//OG Components
-// import Header from "./Components/Header/Header"
-// import Body from "./Components/Body/Body"
-// import Footer from "./Components/Footer/Footer"
-// import Menu from "./Components/Menu/Menu"
+// import { BrowswerRouter as Router, Link } from 'react-router-dom'
+
+// import Route from 'react-router-dom/Route';
 
 
 //New Components

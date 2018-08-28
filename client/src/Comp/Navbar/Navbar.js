@@ -6,29 +6,29 @@ class Navbar extends Component {
     return (
       // <div className="container">
 
-        <nav id="navbar-example2" class="navbar navbar-light bg-light">
+        <nav id="navbar-example2" className="navbar navbar-light bg-light">
 
-          <a class="navbar-brand" href="#">My Portfolio</a>
+          <a className="navbar-brand" href="">My Portfolio</a>
 
-          <ul class="nav nav-pills" id="pills">
+          <ul className="nav nav-pills" id="pills">
 
-            <li class="nav-item">
-              <a class="nav-link" href="#fat">About Me</a>
+            <li className="nav-item">
+              <a className="nav-link" href="#fat">About Me</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#mdo">Work</a>
+            <li className="nav-item">
+              <a className="nav-link" href="#mdo">Work</a>
             </li>
 
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
 
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#one">one</a>
-                <a class="dropdown-item" href="#two">two</a>
-                <div role="separator" class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#three">three</a>
+              <div className="dropdown-menu">
+                <a className="dropdown-item" href="#one">one</a>
+                <a className="dropdown-item" href="#two">two</a>
+                <div role="separator" className="dropdown-divider"></div>
+                <a className="dropdown-item" href="#three">three</a>
               </div>
 
             </li>

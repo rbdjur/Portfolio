@@ -5,13 +5,13 @@ import "./Body.css"
 import Work from "./Work"
 import "./Work"
 
-import PL1 from "./PL1.png";
+// import PL1 from "./PL1.png";
 
-import GGB1 from "./GGB1.jpeg";
+// import GGB1 from "./GGB1.jpeg";
 
-import GGB2 from "./GGB2.jpeg";
+// import GGB2 from "./GGB2.jpeg";
 
-import SFSky from "./SFSky.png";
+// import SFSky from "./SFSky.png";
 
 import SFSky2 from "./SFSky2.jpeg";
 
@@ -68,7 +68,7 @@ class Body extends Component {
 
                 {/* SFSky2 */}
 
-                <img id="SFSky2" src={SFSky2}/>
+                <img id="SFSky2" src={SFSky2} alt=""/>
                 </div>
 
 
