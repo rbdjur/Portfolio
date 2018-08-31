@@ -110,14 +110,12 @@
 }
 
 
-
 /* Hidden Info */
-
 #experience-text {
     border:2px solid peru;
+    text-align: left;
     /* padding-top:1.5rem; */
 }
-
 
 #experience {
     border:2px solid brown;
@@ -136,13 +134,18 @@
 
 #about-me{
     border:2px solid brown;
-    padding-bottom: -1rem;
-    width:relative;
+    /* position:absolute; */
+    margin-top:1.85rem;
+    width:100%;
     text-align: center;
-    align-content: center;
-    align-items: center;
-    align-self: center;
-    display:flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+   
+}
+
+.clearfix {
+    overflow:auto;
 }
 
 #canvas-text{
@@ -151,18 +154,21 @@
     font-size:1rem;
 }
 
+#canvas{
+    border:2px solid brown;
+    text-align: center;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    margin-top:1rem;
+}
+
 #react{
     font-size: 2rem;
-
 }
 
 #javascript{
     font-size:2rem;
-
-}
-
-#canvas{
-    border:2px solid brown;
 }
 
 .col-4 {
@@ -173,8 +179,11 @@
 #special {
     /* display:inline-flex; */
     /* justify-content: space-between */
-    margin-top:3rem;
+    /* margin-top:3rem; */
+    position:relative;
 }
+
+
 
 /* #footer {
     border:2px solid green;
