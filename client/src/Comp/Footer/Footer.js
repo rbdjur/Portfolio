@@ -13,6 +13,7 @@ class Footer extends Component {
         this.handleGithubClick = this.handleGithubClick.bind(this);
         this.handleLinkedInClick = this.handleLinkedInClick.bind(this);
         this.handleTwitterClick = this.handleTwitterClick.bind(this);
+        this.handleResumeClick = this.handleResumeClick.bind(this);
 
 
         //State
@@ -20,12 +21,13 @@ class Footer extends Component {
             github:"https://github.com/rbdjur",
             linkedin:"https://www.linkedin.com/in/ronaldodeguzman",
             twitter:"https://twitter.com/code_Ronaldo",
+            resume:"https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG",
             // github:"https://github.com/rbdjur",
             // linkedin:"www.linkedin.com/in/ronaldodeguzman",
             // twitter:"https://twitter.com/code_Ronaldo",
         };
     
-    console.log("this.state.github + ", this.state.github);
+    console.log("this.state.resumegoogledrive + ", this.state.resume);
     // console.log("handleClick()", this.handleClick);
     }
 
@@ -34,7 +36,6 @@ class Footer extends Component {
         e.preventDefault();
         console.log("clicked");
         // console.log("inside handleClick - this.state.github should be assigning nothing", this.state.github);
-        
         this.setState({github:"https://github.com/rbdjur"})
 
         console.log("this is the state of github after setState", this.state.github);
@@ -80,6 +81,25 @@ class Footer extends Component {
         console.log("this is the state of linkedin after setState", this.state.linkedin);
 
         window.location.href = this.state.linkedin;
+        // window.location(this.state.github);
+
+
+        // console.log("this is the state of github after setState", this.setState({github}));
+
+        // <Link to ={this.state.github}/>
+    }
+
+    //Resume Click
+    handleResumeClick(e) {
+        e.preventDefault();
+        console.log("clicked");
+        // console.log("inside handleClick - this.state.github should be assigning nothing", this.state.github);
+        
+        this.setState({resume:"https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"})
+
+        console.log("this is the state of resumegoogledrive after setState", this.state.resume);
+
+        window.location.href = this.state.resume;
         // window.location(this.state.github);
 
 
@@ -136,6 +156,13 @@ class Footer extends Component {
                         
                         ></i>
 
+                        <i className="far fa-file-alt"
+                            onClick={this.handleResumeClick}
+                            value={this.state.resumegoogledrive}
+                            href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
+                        
+                        ></i>
+
                         {/* </a> */}
                 </div>
 
@@ -143,7 +170,7 @@ class Footer extends Component {
                 {/* <div> */}
                   <div className="col-3" id="location">
                 <p>
-                    San Francisco, Bay Area
+                    Bay Area, CA
                 </p>
 
                 </div>

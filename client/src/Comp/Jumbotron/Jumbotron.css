@@ -1,5 +1,5 @@
 #jumbotron-div {
-    height:44rem;
+    height:47rem;
     align-content: center;
     align-items: center;
     display:block;
@@ -19,7 +19,7 @@
     align-items: center;
     text-align: center;
     border: 2px solid salmon;
-    margin-top: -2rem;
+    margin-top: 0rem;
     /* top:rem; */
     /* padding-bottom:5rem; */
 }
@@ -29,8 +29,8 @@
     align-items: center;
     text-align: center;
     border: solid 3px purple;
-    margin-bottom: 2rem;
-    font-size:4rem;
+    margin-bottom: 1rem;
+    font-size:3.5rem;
 }
 
 /* #icon {
@@ -40,6 +40,7 @@
     font-size: 3rem;
     color:darkred;
 } */
+
 
 #attr {
     border: solid 3px blue;
@@ -60,6 +61,7 @@
     /* text-align: justify; */
     /* display:inline; */
 }
+
 
 #symbols {
     border: solid 3px blue;
@@ -105,6 +107,73 @@
 #rec {
     color:aquamarine;
 
+}
+
+
+
+/* Hidden Info */
+
+#experience-text {
+    border:2px solid peru;
+    /* padding-top:1.5rem; */
+}
+
+
+#experience {
+    border:2px solid brown;
+    /* padding-top:1.5rem; */
+}
+
+#page-tech {
+    border:2px solid brown;
+}
+
+#about-me-text{
+    border:2px solid peru;
+    justify-content: left;
+    text-align: left;
+}
+
+#about-me{
+    border:2px solid brown;
+    padding-bottom: -1rem;
+    width:relative;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    display:flex;
+}
+
+#canvas-text{
+    border: 2px solid peru;
+    text-align: left;
+    font-size:1rem;
+}
+
+#react{
+    font-size: 2rem;
+
+}
+
+#javascript{
+    font-size:2rem;
+
+}
+
+#canvas{
+    border:2px solid brown;
+}
+
+.col-4 {
+    border:2px solid white;
+    /* font-size:1.25rem; */
+}
+
+#special {
+    /* display:inline-flex; */
+    /* justify-content: space-between */
+    margin-top:3rem;
 }
 
 /* #footer {

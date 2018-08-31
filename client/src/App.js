@@ -10,6 +10,8 @@ import Navbar from "./Comp/Navbar/Navbar"
 import Body from "./Comp/Body/Body"
 import Jumbotron from './Comp/Jumbotron/Jumbotron';
 import Footer from "./Comp/Footer/Footer";
+import Attributes from "./Comp/Attributes/Atrributes";
+import NameBanner from "./Comp/Namebanner/Namebanner";
 
 
 
@@ -33,7 +35,9 @@ class App extends Component {
       // id="main"
       >
         <Navbar/>
+        {/* <NameBanner/> */}
         <Jumbotron/>
+        <Attributes/>
         <div className="" id="lol">
         <Footer/>
         </div>

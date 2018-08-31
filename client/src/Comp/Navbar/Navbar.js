@@ -8,7 +8,10 @@ class Navbar extends Component {
 
         <nav id="navbar-example2" className="navbar navbar-light bg-light">
 
-          <a className="navbar-brand" href="">My Portfolio</a>
+          {/* <a className="navbar-brand" href="">Portfolio</a> */}
+
+          <li className="navbar-brand" href="">Portfolio</li>
+
 
           <ul className="nav nav-pills" id="pills">
 

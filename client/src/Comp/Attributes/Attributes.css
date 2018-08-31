@@ -1,0 +1,50 @@
+#symbols {
+    border: solid 3px blue;
+    justify-content:space-evenly;
+    background-color: maroon;
+    font-size: 2.5rem;
+    /* align-content: center;
+    align-items: center;
+    text-align: center; */
+    color:white;
+    /* margin-right: 1.2rem; */
+    /* margin-left: 1.2rem; */
+
+    /* word-spacing: 10rem; */
+    
+}
+
+#simp {
+    text-align: right;
+
+}
+
+#clean {
+    text-align:center;
+}
+
+#direct {
+    text-align: left;
+
+}
+
+#dir {
+    /* align-content: left;
+    align-items: left;
+    text-align: left; */
+    justify-content: space-evenly;
+    color:skyblue;
+}
+
+#horizontal {
+    color:lemonchiffon;
+}
+
+#rec {
+    color:aquamarine;
+}
+
+.col-4 {
+    border:2px solid white;
+    /* font-size:1.25rem; */
+}

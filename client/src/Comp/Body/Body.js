@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+
 import About from "./About"
 import "./Body.css"
 
 import Work from "./Work"
 import "./Work"
+
+
+
+
 
 // import PL1 from "./PL1.png";
 
@@ -74,11 +79,11 @@ class Body extends Component {
 
                 {/* Insert pic of the painted lady houses in SF in this space.  */}
 
-                    <h4 id="about">
+                    {/* <h4 id="about">
                     <About/>
-                    </h4>
+                    </h4> */}
 
-                    <div className="container">
+                    {/* <div className="container">
                     <p id="text">
 
                     I am a full stack web developer based out of the Bay Area, CA.  I have 2.5 years of healthcare and medical experience working with patients in physical therapy setting, Emergency Medical Services (EMT), and M.D.'s, and researchers at Neuroscape Lab at UCSF. 
@@ -90,7 +95,7 @@ class Body extends Component {
                     <br/>
 
                     </p>
-                    </div>
+                    </div> */}
 
                     <h4 id="work">
                     Work Component
