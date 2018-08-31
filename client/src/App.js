@@ -37,7 +37,7 @@ class App extends Component {
         <Navbar/>
         {/* <NameBanner/> */}
         <Jumbotron/>
-        <Attributes/>
+        {/* <Attributes/> */}
         <div className="" id="lol">
         <Footer/>
         </div>

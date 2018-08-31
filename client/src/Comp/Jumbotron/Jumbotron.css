@@ -42,6 +42,9 @@
 } */
 
 
+#stuff {
+    margin-top:3.5rem;
+}
 #attr {
     border: solid 3px blue;
     align-content: center;

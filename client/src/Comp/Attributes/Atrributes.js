@@ -8,9 +8,8 @@ class Attributes extends Component {
 
 
 
-            <ul
-            //  id="attr"
-            >
+            <ul>
+            {/* //  id="attr" */}
                 <div className="row"
                     id="symbols"
                 >

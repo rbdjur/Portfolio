@@ -1,3 +1,8 @@
+#attr{
+    margin-top:3rem;
+    padding-top: 3rem;
+}
+
 #symbols {
     border: solid 3px blue;
     justify-content:space-evenly;
