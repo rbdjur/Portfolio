@@ -21,7 +21,7 @@ class Footer extends Component {
             github:"https://github.com/rbdjur",
             linkedin:"https://www.linkedin.com/in/ronaldodeguzman",
             twitter:"https://twitter.com/code_Ronaldo",
-            resume:"https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG",
+            resume:"https://drive.google.com/file/d/1UFKFIkb0ivWzwLKLKyTGR3GkJYMKzqCg/view?usp=sharing",
             // github:"https://github.com/rbdjur",
             // linkedin:"www.linkedin.com/in/ronaldodeguzman",
             // twitter:"https://twitter.com/code_Ronaldo",
@@ -107,11 +107,6 @@ class Footer extends Component {
 
         // <Link to ={this.state.github}/>
     }
-
-
-
-
-
 
 
 

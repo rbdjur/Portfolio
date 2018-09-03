@@ -41,20 +41,36 @@
     z-index: -2;
 } */
 
+#hey {
+
+}
+
 #body {
     z-index: -1;
     position:relative;
+    background-color:indianred;
 }
 
 #work {
     text-align:center;
-    border: 2px solid plum
+    border: 2px solid plum;
+    background-color: yellow;
 }
 
-#pic {
-    border: 2px solid goldenrod;
-    background-color:whitesmoke;
+#idk {
+    border:2px solid white;
+    display:flex;
+
+    /* justify-content: space-between; */
+    /* align-self:flex-start; */
+    flex-wrap: nowrap;
+    padding-left:3rem;
 }
+
+/* #pic {
+    border: 2px solid purple;
+    background-color:teal;
+} */
 
 #PL1 {
     width:100%;

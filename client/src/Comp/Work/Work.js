@@ -2,9 +2,17 @@ import React, { Component } from 'react';
 import "./Work.css"
 
 
-class Work extends Component {
-    render() {
-        return (
+import Image from "./image"
+import Name from "./name"
+import Description from "./description"
+
+
+// class Work extends Component {
+//     render() {
+//         return (
+
+const Work = props => (
+
             <div className="row">
 
                 {/* <div className="container" id="work">
@@ -20,38 +28,63 @@ class Work extends Component {
                     <small>Secondary Text</small>
                     </h1> */}
 
+
+
+
+
+
                 <div className="row">
 
-                    <div className="col-sm-1" 
-                    // id="box"
+                    {/* <div className="col-sm-1" 
+                    id="xob"
                     >
-                    </div>
+                    </div> */}
 
 
-                    <div className="col-sm-4 portfolio-item" id="box">
-                        <div className="card h-100">
-                            <a href=""><img className="card-img-top" src="http://placehold.it/700x400" alt="" />
+                    <div className="col-6 portfolio-item" id="box">
+                        <div className="card h-100" id="card">
+
+                        {/* <Image/> */}
+
+
+                            {/* <a href=""><img className="card-img-top" src="http://placehold.it/700x400" alt="" />
+                            </a> */}
+
+                            <a href=""><img className="card-img-top" src={props.image} alt={props.name} />
                             </a>
+
+
                             <div className="card-body">
+
+
                                 <h4 className="card-title">
-                                    <a href="">Project One</a>
+                                    <a href="">{props.name}</a>
                                 </h4>
-                                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
+                                {/* <Name
+                                title={props.name}
+                                /> */}
+
+
+                                <p className="card-text">{props.description}</p>
+
+                                {/* <Description
+                                description={props.description}/> */}
+
+
                             </div>
                         </div>
                     </div>
 
 
-                    <div className="col-sm-1" 
-                    // id="box"
-                    >
-                    </div>
+                    {/* <div className="col-sm-1" >
+                    </div> */}
 
 
                     {/* <div className="col-sm-1" id="box">
                     </div> */}
 
-                    <div className="col-sm-4 portfolio-item" id="box">
+                    {/* <div className="col-sm-4 portfolio-item" id="box">
                         <div className="card h-100">
                             <a href=""><img className="card-img-top" src="http://placehold.it/700x400" alt="" />
                             </a>
@@ -62,7 +95,7 @@ class Work extends Component {
                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* <div className="col-sm-1" 
                     id="box"
@@ -74,9 +107,11 @@ class Work extends Component {
 
                 </div>
              </div>
-        )
-    }
-}
 
+
+//         )
+//     }
+// }
+                )
 
 export default Work 

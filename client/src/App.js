@@ -12,6 +12,9 @@ import Jumbotron from './Comp/Jumbotron/Jumbotron';
 import Footer from "./Comp/Footer/Footer";
 import Attributes from "./Comp/Attributes/Atrributes";
 import NameBanner from "./Comp/Namebanner/Namebanner";
+import Para from "./Comp/Parallax/Parallax";
+// import projects from "./Project.json"
+
 
 
 
@@ -23,25 +26,50 @@ import NameBanner from "./Comp/Namebanner/Namebanner";
 
 class App extends Component {
 
-  state = {
-    github: "",
-    twitter: "",
-    linkedin: "www.linkedin.com/in/ronaldodeguzman"
+ showText(e) {
+    e.preventDefault();
+    console.log("onMouseMove");
+    alert("Mouse moved");
   }
+
+  // state = {
+  //   projects,
+  // };
+
 
   render() {
     return (
       <div 
       // id="main"
       >
-        <Navbar/>
+        {/* <Navbar/> */}
+
         {/* <NameBanner/> */}
-        <Jumbotron/>
+        <Jumbotron mouse={this.showText}/>
+        <Para/>
+
         {/* <Attributes/> */}
-        <div className="" id="lol">
+
+        {/* <div className="" id="lol"> */}
         <Footer/>
-        </div>
+        {/* </div> */}
+
+        {/* {this.state.projects.map(project => (
+           <Body
+           id={project.id}
+           key={project.id}
+           name={project.name}
+           image={project.image}
+           description={project.description}
+           
+           
+           
+           
+           
+           />
+        ))} */}
         <Body/>
+
         <Footer/>
 
         

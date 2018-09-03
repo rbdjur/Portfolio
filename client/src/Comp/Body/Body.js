@@ -3,10 +3,14 @@ import React, { Component } from 'react';
 import About from "./About"
 import "./Body.css"
 
-import Work from "./Work"
-import "./Work"
+import Work from "../Work/Work"
+import "../Work/Work.css"
+
+import projects from "../../Project.json"
+// import projects from "../Navbar/Navbar"
 
 
+// /Users/deguzman714/React-Portfolio/client/src/Project.json
 
 
 
@@ -21,50 +25,52 @@ import "./Work"
 import SFSky2 from "./SFSky2.jpeg";
 
 
-
-
-
-
 class Body extends Component {
+    state = {
+        projects,
+    };
+
+
     render() {
         return (
-                
-                <div>
+
+            <div id="hey">
                 <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" id="body">
 
-                <div className="wrapper" id="pic">
-
-                {/* PL 1 */}
-                {/* <img id="PL1" src={PL1}/> */}
-
-                {/* GGB1 */}
-                 {/* <img id="GGB1" src={GGB1}/> */}
-
-                {/* GGB2 */}
-                {/* <img id="GGB2" src={GGB2}/> */}
-
-                {/* SFSky */}
-                {/* <img id="SFSky" src={SFSky}/> */}
-
-                {/* SFSky2 */}
-                <img id="SFSky2" src={SFSky2} alt=""/>
-                </div>
 
 
                     <h4 id="work">
-                    Work Component
+                        Work Component
                     </h4>
 
-                    <div className="row">
-                    {/* <div className="row"  */}
-                    {/* id="text" */}
-                    >
-                    <Work/>
+                    <div className="col-12" id="idk">
+                        {/* <div className="row"  */}
+                        {/* id="text" */}
+
+                        {this.state.projects.map(project => (
+                            <Work
+
+                                id={project.id}
+                                key={project.id}
+                                name={project.name}
+                                image={project.image}
+                                description={project.description}
+
+
+
+
+                            />
+
+
+                        ))}
+
+                        {/* <Work/> */}
+
                     </div>
                     {/* </div> */}
 
-                    
-                    
+
+
                     <h4 id="one">one</h4>
                     <p>...</p>
                     <h4 id="two">two</h4>
@@ -74,7 +80,7 @@ class Body extends Component {
 
 
                 </div>
-                </div>
+            </div>
 
             // </div>
 

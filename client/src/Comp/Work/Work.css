@@ -1,0 +1,50 @@
+.container {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#work {
+    background-color: rosybrown;
+    color:whitesmoke;
+    border:2px solid blue;
+}
+
+#box {
+    border: solid 2px yellow;
+    /* padding-right:1rem; */
+    /* margin-left:2rem; */
+    /* align-content: center;
+    align-items: center;
+    text-align:center;
+    float:right; */
+    display:flex;
+}
+
+#xob {
+    border: solid 2px white
+}
+
+#card {
+    border:solid 2px purple;
+    display:flex;
+}
+
+.portfolio-item {
+    margin-top:2rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    background-color:teal
+  }
+  
+  .pagination {
+    /* margin-bottom: 30px; */
+    background-color:yellow;
+  }
+
+  body {
+
+    /* This is important /*
+    /* padding-top: 54px; */
+  }
