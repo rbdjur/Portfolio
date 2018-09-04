@@ -27,7 +27,7 @@ class Footer extends Component {
             // twitter:"https://twitter.com/code_Ronaldo",
         };
     
-    console.log("this.state.resumegoogledrive + ", this.state.resume);
+    // console.log("this.state.resumegoogledrive + ", this.state.resume);
     // console.log("handleClick()", this.handleClick);
     }
 

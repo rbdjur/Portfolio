@@ -2,19 +2,22 @@
     {
       "id": 1,
       "name": "EquipRent",
-      "image": "",
-      "description": "A peer to peer web application providing users a platform to rent/borrow equipment from other users (outdoors, camping, etc.)."
+      "image": "./equiprent.jpeg",
+      "description": "A peer to peer web application providing users a platform to rent/borrow equipment from other users (outdoors, camping, etc.).",
+      "site": ""
     }, 
     {
         "id": 2,
         "name": "Social Celeb",
-        "image": "",
-        "description": "A social media data analytics web applciation providing information on likes and number of followers of social media influencers."
+        "image": "./socialpic.jpg",
+        "description": "A social media data analytics web applciation providing information on likes and number of followers of social media influencers.",
+        "site": ""
       },
       {
         "id": 3,
         "name": "Tasteful",
         "image": "./Tasteful-Salad.png",
-        "description": "Tasteful is a food search app oferring the user a personal and custom search to satisfy their next craving. Tasteful matches descriptive keywords of the desired food and the user’s personal food preferences resulting in a refined and precise search experience."
+        "description": "Tasteful is a food search app oferring the user a personal and custom search to satisfy their next craving. Tasteful matches descriptive keywords of the desired food and the user’s personal food preferences resulting in a refined and precise search experience.",
+        "site": ""
       }
 ]

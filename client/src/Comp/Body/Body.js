@@ -9,8 +9,11 @@ import "../Work/Work.css"
 import projects from "../../Project.json"
 // import projects from "../Navbar/Navbar"
 
+import salad from "../../Tasteful-Salad.png"
+import sc from "../../socialpic.jpg"
+import equip from "../../equiprent.jpeg"
 
-// /Users/deguzman714/React-Portfolio/client/src/Project.json
+
 
 
 
@@ -26,9 +29,28 @@ import SFSky2 from "./SFSky2.jpeg";
 
 
 class Body extends Component {
-    state = {
+    constructor(props) {
+        super(props);
+
+    this.state = {
         projects,
+        // equiprent: equip,
+        // socialceleb: sc,
+        // tasteful: salad,
+        // pics: equip,sc,salad
+        // pic: project.image
     };
+
+        console.log("this is console.log for tasteful with image ", this.state.pics);
+        console.log("projects", this.state.projects);
+
+        console.log("experimenting to extract projects data", this.state.projects[0].image)
+
+        // console.log("props.image", props.image);
+        console.log("this.state.pic for prop.image", this.state.pic);
+
+        
+    }
 
 
     render() {
@@ -55,6 +77,16 @@ class Body extends Component {
                                 name={project.name}
                                 image={project.image}
                                 description={project.description}
+
+
+
+                                equiprentImage={this.state.projects[0].image}
+                                // scImage={this.state.socialceleb}
+                                // tastefulImage=""
+                                // picstate={this.state.pics}
+
+
+                                project={project}
 
 
 
