@@ -7,25 +7,9 @@ import Work from "../Work/Work"
 import "../Work/Work.css"
 
 import projects from "../../Project.json"
-// import projects from "../Navbar/Navbar"
-
-// import salad from "../../Tasteful-Salad.png"
-// import sc from "../../socialpic.jpg"
-// import equip from "../../equiprent.jpeg"
 
 
 
-
-
-// import PL1 from "./PL1.png";
-
-// import GGB1 from "./GGB1.jpeg";
-
-// import GGB2 from "./GGB2.jpeg";
-
-// import SFSky from "./SFSky.png";
-
-// import SFSky2 from "./SFSky2.jpeg";
 
 
 class Body extends Component {
@@ -35,19 +19,14 @@ class Body extends Component {
     this.clickEquip = this.clickEquip.bind(this)
     this.clickSocial = this.clickSocial.bind(this)
     this.clickTasteful = this.clickTasteful.bind(this)
-    this.clickSite = this.clickSite.bind(this);
+    this.click = this.click.bind(this);
 
     this.state = {
         projects,
         equiprent: "",
         socialceleb: "",
         tasteful: "",
-
-        // equiprent: "https://equiprent.herokuapp.com/",
-        // socialceleb: "https://nameless-wave-15422.herokuapp.com/",
-        // tasteful: "https://tastefulteam.github.io/TastefulApp/",
-        // pics: equip,sc,salad
-        // pic: project.image
+        stuff: "",
     };
 
         console.log("this is console.log for tasteful with image ", this.state.pics);
@@ -55,26 +34,30 @@ class Body extends Component {
 
         console.log("experimenting to extract projects data", this.state.projects[0].image)
 
-        // console.log("props.image", props.image);
-        // console.log("this.state.pic for prop.image", this.state.pic); 
     }
 
-    clickSite(e) {
-        // e.preventDefault();
+    click(e) {
+        e.preventDefault();
         console.log("Title clicked");
-       let sites = [];
-        {this.state.projects.map(project => (
-            // console.log("urls to site - project.site", project.site)
-            // let project.site = project.site
-            sites.push(project.site)
-        )
-    ); 
-    console.log("sites array", sites);
-    console.log("sites array 0 + ", sites[0])
-    console.log("sites array 1 + ", sites[1])
-    console.log("sites array 2 + ", sites[2])
-        // window.location.href = project.site;
-}
+
+
+//        let sites = [];
+//         {this.state.projects.map(project => (
+//             // console.log("urls to site - project.site", project.site)
+//             // let project.site = project.site
+//             sites.push(project.site)
+//         )
+//     ); 
+//     console.log("sites array", sites);
+//     console.log("sites array 0 + ", sites[0])
+//     console.log("sites array 1 + ", sites[1])
+//     console.log("sites array 2 + ", sites[2])
+//     console.log("this.state.stuff", this.state.stuff);
+//     this.setState({stuff:sites});
+//     console.log("this.state.stuff", this.state.stuff);
+// }
+
+
     }
 
     clickEquip(e) {
@@ -121,7 +104,8 @@ class Body extends Component {
                                 page={project.site}
 
                                 // click={this.clickSite}
-                                need={this.clickSite()}
+                                need={this.click}
+
 
 
                                 // equipsite={this.clickEquip}

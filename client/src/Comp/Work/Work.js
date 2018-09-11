@@ -2,6 +2,9 @@ import React from 'react';
 // import React, { Component } from 'react';
 import "./Work.css"
 
+import Site from "./site"
+import "./site.css"
+
 
 // import Image from "./image"
 // import Name from "./name"
@@ -48,10 +51,10 @@ const Work = props => (
 
                         {/* <Image/> */}
 
-                        <div className="col-12" id="pic-row">
+                        <div className="col-12" id="pic-row" onClick={props.need}>
 
                             <a href="">
-                                <img src={props.image} alt={props.id} onClick={props.need} id="image"/>
+                                <img src={props.image} alt={props.id}  id="image"/>
                             </a>
                         </div>
 
@@ -64,25 +67,24 @@ const Work = props => (
                         id="card-body">
                             <h4 className="card-title">
                                 <a href={props.page}>{props.id}. {props.name}</a>
+                                <Site thing={props.page}/>
                             </h4>
 
-                            <div className="row">
+                            {/* <div className="row">
                                 <div className="col-12">
 
-                                    {/* <p> */}
                                         <a href={props.page} target="_blank">
                                         site
                                         </a>
-                                    {/* </p> */}
 
                                 </div>
-                            </div>
+                            </div> */}
 
 
                             {/* </div> */}
 
 
-                            <div className="col-12" id="writing" onClick={props.click}>
+                            <div className="col-12" id="writing">
                             {/* <p className="card-text">{props.description}</p>
                          */}
 
