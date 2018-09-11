@@ -12,7 +12,9 @@
     /* display:block; */
     text-align: center;
     z-index: 1;
-    border: 2px solid lawngreen;
+
+    /* border: 2px solid lawngreen; */
+    color:white;
     overflow: hidden;
     /* background-color:skyblue; */
     background-color:cadetblue;
@@ -31,7 +33,9 @@
     align-content: center;
     align-items: center;
     text-align: center;
-    border: solid 3px purple;
+
+    /* border: solid 3px purple; */
+
     margin-bottom: 1rem;
     font-size:3.5rem;
     /* font-family:"Roboto"; */
@@ -40,7 +44,9 @@
 /* Columns */
 /* Entire */
 #entire-column {
-    border: 2px solid pink;
+
+    /* border: 2px solid pink; */
+
     /* display:inline-flex; */
     display:flex;
     overflow: hidden;
@@ -55,7 +61,9 @@
 
 /* Column 1 */
 #col1 {
-    border:2px solid green;
+
+    border:2px solid cadetblue;
+
     /* display:flex; */
     /* align-self:flex-end;
     flex-wrap: wrap; */
@@ -66,33 +74,43 @@
 
 
 /* Column 2 */
+
+#photo {
+    border: 2px solid cadetblue;
+
+}
 #jumbotron-photo {
     align-content: center;
     align-items: center;
     text-align: center;
-    border: 2px solid blue;
-    margin-top: 0rem;
+
+    border: 2px solid cadetblue;
+
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 /* col 3 */
 #col3 {
-    border: 2px solid slateblue;
+    border: 2px solid cadetblue;
 }
 
 
 /* Text */
-#about-me-text:hover{
-    /* border:2px solid peru; */
+#about-me-text {
+    border:2px solid peru;
     /* visibility: hidden; */
     /* color:red; */
     margin-top:1rem;
     margin-bottom:1rem;
     justify-content: left;
     text-align: center;
+    /* border-bottom:2px solid black; */
+
 }
 
 #exp-text {
-    border-bottom:2px solid white;
+    /* border-bottom:2px solid white; */
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: left;
@@ -102,6 +120,8 @@
     /* top:50rem; */
     /* text-align: left; */
     /* padding-top:1.5rem; */
+
+    border:2px solid peru;
 }
 
 #page-tech-text {
@@ -109,15 +129,22 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: left;
-    border-bottom: 2px solid white;
-    padding-bottom: .8rem;
+    /* border-bottom: 2px solid white; */
+    /* padding-bottom: 1rem; */
+    border:2px solid peru;
+
 }
 
 #canvas-text{
     /* border-top: 2px solid white;
     border-bottom: 2px solid wheat; */
     text-align: left;
-    margin-top:1rem;
+    /* margin-top:1rem; */
+    border:2px solid peru;
+    margin-top:8.0rem;
+
+    /* border-bottom:2px solid black; */
+
     /* margin-bottom: 1rem; */
     /* margin-bottom:1rem; */
     /* font-size:1rem; */
@@ -125,20 +152,24 @@
 }
 
 #react{
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 #javascript{
-    font-size:2rem;
+    font-size:1.3em;
 }
 
 
 /* Titles */
 #ex {
     border:2px solid yellow;
+
+    /* border-bottom:2px solid black; */
+
     /* display:flex; */
     justify-content: center;
     margin-top:1rem;
+    position: relative;
     /* color:red; */
     /* align-content: flex-start; */
     /* top:37%; */
@@ -146,9 +177,15 @@
 }
 
 #about-me{
+
     border:2px solid purple;
+
+    /* border-top:2px solid black; */
+
+
     /* justify-content: flex-end; */
     justify-content: space-between;
+    position:relative;
     /* bottom:11.5rem; */
     /* position:relative; */
     /* position:relative; */
@@ -158,15 +195,26 @@
 }
 
 #canvas{
+
     border:2px solid purple;
+
+    /* border-top:2px solid black; */
+
     /* overflow: hidden; */
     margin-bottom:1rem;
     margin-top:1rem;
 }
 
 #page-tech {
+
     border:2px solid yellow;
-    overflow: hidden;
+    /* display:flex;
+    flex-direction: row; */
+
+
+    /* border-bottom:2px solid black; */
+
+    /* overflow: hidden; */
     margin-top:1rem;
 }
 

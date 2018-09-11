@@ -12,7 +12,7 @@ class Jumbotron extends Component {
 
     constructor() {
         super();
-        this.state={
+        this.state = {
             showMe: true
         }
     }
@@ -20,151 +20,173 @@ class Jumbotron extends Component {
         return (
 
             <div>
-                <div className="jumbotron" 
-                id="jumbotron-div"
+                <div className="jumbotron"
+                    id="jumbotron-div"
                 >
                     <Namebanner />
 
-                    <div className="row" 
+                    <div className="row"
                     // onMouseEnter={this.props.mouse}
                     >
                         {/* col 1 out of 3 */}
-                        <div className="col-12" 
-                        id="entire-column"
+                        <div className="col-12"
+                            id="entire-column"
                         >
 
-                        <div className="col-4" id="col1">
-                        <div className="row">
-                        
-                        
-                       
-                        {/* Titles */}
-                        <div className="container" id="wow">
-                        {/* experience title */}
-                        <div className="col-12" id="ex">
-                            <p>
-                                experience
+                            <div className="col-4" id="col1">
+                                <div className="row">
+
+
+
+                                    {/* Titles */}
+                                    <div className="container" id="wow">
+                                        {/* experience title */}
+                                        <div className="col-12" id="ex">
+                                            <p>
+                                                Experience
                             </p>
-                        </div>
+                                        </div>
 
 
-                        {/* Details */}
-                         <div className="col-12" id="exp-text">
-                                <p>
-                                    I have work experience in the health and medical industry working with patients, M.D.'s, and researchers. After several years of work experience, I want to expand my skillset and begin a career in the technology industry in the Bay Area.
+                                        {/* Details */}
+                                        <div className="col-12" id="exp-text">
+                                            <p>
+                                                I have work experience in the health and medical industry working with patients, M.D.'s, and researchers. After several years of work experience, I want to expand my skillset and begin a career in the technology industry in the Bay Area.
                                 </p>
-                            </div>
+                                        </div>
 
-                        {/* AboutMe Details */}
-                           <div className="col-12" id="about-me-text">
-                                <ul>
-                                    <li>
-                                        I lost 25 pounds at 9 years old.   
+                                        {/* AboutMe Details */}
+                                        <div className="col-12" id="about-me-text">
+                                            <ul>
+                                                <li>
+                                                    I lost 25 pounds at 9 years old.
                                            {/* <i className="farfa-surprise"></i> */}
 
-                                        {/* (I know..) */}
+                                                    {/* (I know..) */}
+                                                </li>
+                                                <li>
+                                                    I am a meal prep enthusiast.
                                     </li>
-                                    <li>
-                                        I am a meal prep enthusiast.
+                                                <li>
+                                                    I am "Art-C", not artsy.
                                     </li>
-                                    <li>
-                                        I am "Art-C", not artsy.
+
+                                                <li>
+                                                   I volunteer at A Meal With Dignity, a non-profit organization that feeds the homeless in San Francisco.
                                     </li>
-                                    <li>
-                                        Something random
-                                    </li>
-                                    <br/>
-                                </ul>
-                            </div>
+                                                {/* <br /> */}
+                                            </ul>
+                                        </div>
 
 
 
-                        {/* AboutMe Title */}
-                            <div className="col-12"
-                        id="about-me"> 
-                            <p>
-                                About Me
+                                        {/* AboutMe Title */}
+                                        <div className="col-12"
+                                            id="about-me">
+                                            <p>
+                                                About Me
                             </p>
-                        </div> 
-                        </div>
-                        </div>
-                        </div>
-
-
-
-
-                       {/* col 2 out of 3 */}
-                       <div className="col-4">
-                            <div className="col-12">
-                                <img 
-                                
-                                // className="portfolio-hero-header-logo" 
-
-                                className="col-12" 
-                                
-                                id="jumbotron-photo" src={ProfilePic} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-
-
-                        {/* col 3 out of 3 */}
-                        <div className="col-4" id="col3">
-                        <div className="row">
 
 
 
-                        <div className="container" id="look">
-                        
-                        {/* </div>                                         */}
-                        <div className="col-12"
-                        id="page-tech"> 
-                                <p>
-                                Page Technology
+
+                            {/* col 2 out of 3 */}
+                            <div className="col-4" id="photo">
+                                <div className="col-12">
+                                    <img
+
+                                        // className="portfolio-hero-header-logo" 
+
+                                        className="col-12"
+
+                                        id="jumbotron-photo" src={ProfilePic} alt="" />
+                                </div>
+                            </div>
+
+
+                            {/* col 3 out of 3 */}
+                            <div className="col-4" id="col3">
+                                <div className="row">
+                                    <div className="container" id="look">
+
+                                        {/* </div>                                         */}
+                                        <div className="col-12"
+                                            id="page-tech">
+                                            <p>
+                                                Page Technology
                                 </p>
-                        </div>
+                                        </div>
 
-                           {/* <div className="col-4"> */}
-                            <div className="col-12" id="page-tech-text">
-                                    <p>
+                                        {/* <div className="col-4"> */}
+                                        <div className="col-12" id="page-tech-text">
+                                            {/* <p>
                                     This is my portfolio built from scratch.
                                     <br />
-                                    Here are the technologies utilized on this page:
-                                    </p>
-                        
-                                    <ul>
+                                    Here are the main technologies utilized on this page:
+                                    </p> */}
+
+                                            {/* <ul>
                                         <i className="fab fa-react" id="react"></i>
                                         React.Js
-                                    </ul>
-                                    <ul>
+                                    </ul> */}
+
+                                            {/* <ul>
                                         <i className="fab fa-js" id="javascript"></i>
                                         Javascript
-                                    </ul>
-                                
-                            </div>
+                                    </ul> */}
+                            <p>
+                            React.Js
+                            <i className="fab fa-react" id="react"></i>
+                            &nbsp;
+                            and  &nbsp; Javascript <i className="fab fa-js" id="javascript"></i> &nbsp;
+
+                             are the two main libraries used to create my portfolio.  Other technologies used are parralax.js and bootstrap 4.
+                            </p> 
 
 
-                             <div className="col-12" id="canvas-text">
-                                <p>
-                                    This is my canvas, similar to an artist experimenting with new techniques and colors while painting, I use this space to implement new CSS effects and animations I discover.
+{/*                             
+                            <br/>
+                            <br/>
+                            <br/> */}
+
+
+                                            {/* <p>
+                                    This is my portfolio built from scratch.
+                                    <br />
+                                    Here are the main technologies utilized on this page:
+                                    </p> */}
+
+
+
+                                        </div>
+
+
+                                        <div className="col-12" id="canvas-text">
+                                            <p>
+                                                This is my canvas, similar to an artist experimenting with new techniques and colors while painting, I use this space to implement new CSS effects and animations I discover.
                                 </p>
-                            </div>
+                                        </div>
 
 
-                         <div className="col-12"
-                                id="canvas"> 
-                                <p>
-                                My Canvas AKA portfolio
+                                        <div className="col-12"
+                                            id="canvas">
+                                            <p>
+                                                My Canvas AKA portfolio
                                 </p>
+                                        </div>
+                                        {/* </div> */}
+                                    </div>
+                                    {/* </div>  */}
+                                </div>
+                            </div>
                         </div>
-                        {/* </div> */}
-                        </div>
-                        {/* </div>  */}
-                        </div>
-                        </div> 
-                </div>
+                    </div>
                 </div>
             </div>
-        </div>
         )
     }
 }

@@ -9,11 +9,6 @@ import Description from "./description"
 import Project from "../../Project"
 
 
-// Pictures
-// import er from "../../Tasteful-Salad.png"
-// import sc from "../../Tasteful-Salad.png"
-import salad from "../../Tasteful-Salad.png"
-
 
 
 // class Work extends Component {
@@ -21,7 +16,7 @@ import salad from "../../Tasteful-Salad.png"
 //     state = {
 //         // equiprent: ,
 //         // socialceleb: ,
-//         tasteful: salad
+//         // tasteful: salad
 //     }
 
 //     consoleLog() {
@@ -31,112 +26,75 @@ import salad from "../../Tasteful-Salad.png"
 
 // render(props) {
 //     return (
+
+// clickSite(e,props) {
+//     console.log("blank");
+// }
+
+
+
 const Work = props => (
+    <div className="row" id="ha">
+        <div className="col-12" id="day">
 
-    <div className="row">
+            <div className="col-12 portfolio-item" id="box">
+                {/* <div className="card h-100" id="card"> */}
+                <div className="col-12" id="n">
 
-        {/* <div className="container" id="work">
-                    Work component
-                 </div> */}
+                    {/* <div className="card h-100" id="card"> */}
+                    <div className="col-12" id="card">
 
+                        {/* <Image/> */}
 
-        {/* <!-- Page Content --> */}
-        {/* <div className="row"> */}
+                        <div className="col-12" id="pic-row">
 
-        {/* <!-- Page Heading --> */}
-        {/* <h1 class="my-4">Page Heading
-                    <small>Secondary Text</small>
-                    </h1> */}
-
-
-
-
-
-
-        <div className="row">
-
-            {/* <div className="col-sm-1" 
-                    id="xob"
-                    >
-                    </div> */}
+                            <a href="">
+                                <img src={props.image} alt={props.id} id="image" onClick={props.click} />
+                            </a>
+                        </div>
 
 
-            <div className="col-6 portfolio-item" id="box">
-                <div className="card h-100" id="card">
+                        <div className="row" id="desc">
 
-                    {/* <Image/> */}
+                        {/* <div className="card-body w-100"  */}
+                         <div className="col-12" 
+                        
+                        id="card-body">
+                            <h4 className="card-title">
+                                <a href={props.page}>{props.id}. {props.name}</a>
+                            </h4>
 
+                            <div className="row">
+                                <div className="col-12" onClick={props.click}>
 
-                    {/* <a href=""><img className="card-img-top" src="http://placehold.it/700x400" alt="" />
-                    </a> */}
+                                    {/* <p> */}
+                                        <a href={props.page} target="_blank">
+                                        site
+                                        </a>
+                                    {/* </p> */}
 
-
-                     <a href=""><img src="" alt={props.image}/>
-                    </a>
-
-
-                    {/* {props.picstate.map(pic => (
-
-                        <a href=""><img className="card-img-top" src={pic} alt={props.name} />
-                        </a>
-                    ))} */}
-
-
-                    {/* <a href=""><img className="card-img-top" src={props.equiprentImage} alt={props.name} />
-                            </a> */}
+                                </div>
+                            </div>
 
 
-                    <div className="card-body">
+                            {/* </div> */}
 
+                            {/* <Name
+            title={props.name}
+            /> */}
 
-                        <h4 className="card-title">
-                            <a href="">{props.id}. {props.name}</a>
-                        </h4>
+                            <div className="col-12" id="writing">
+                            {/* <p className="card-text">{props.description}</p>
+                         */}
 
-                        {/* <Name
-                                title={props.name}
-                                /> */}
+                         <p>{props.description}</p>
+                            </div>
 
-
-                        <p className="card-text">{props.description}</p>
-
-                        {/* <Description
-                                description={props.description}/> */}
-
-
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-            {/* <div className="col-sm-1" >
-                    </div> */}
-
-
-            {/* <div className="col-sm-1" id="box">
-                    </div> */}
-
-            {/* <div className="col-sm-4 portfolio-item" id="box">
-                        <div className="card h-100">
-                            <a href=""><img className="card-img-top" src="http://placehold.it/700x400" alt="" />
-                            </a>
-                            <div className="card-body">
-                                <h4 className="card-title">
-                                    <a href="">Project One</a>
-                                </h4>
-                                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                            </div>
-                        </div>
-                    </div> */}
-
-            {/* <div className="col-sm-1" 
-                    id="box"
-                    >
-                    </div> */}
-
-            {/* <div className="col-sm-1" id="box">
-                    </div> */}
-
         </div>
     </div>
 

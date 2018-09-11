@@ -2,7 +2,8 @@
     align-content: center;
     align-items: center;
     text-align: center;
-    border: solid 3px purple;
+    color:white;
+    /* border: solid 3px purple; */
     margin-bottom: 1rem;
     font-size:3.5rem;
     margin-top:-3rem;

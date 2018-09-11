@@ -1,8 +1,8 @@
 
 #footer {
-    border:2px solid green;
+    /* border:2px solid green; */
     width:100vw;
-    height:87%;
+    height:70%;
     /* max-width:100%; */
     /* width:relative; */
     /* max-width:100%; */
@@ -10,7 +10,7 @@
     /* background-color:whitesmoke; */
     top:545px;
     z-index: 0;
-    background-color: teal;
+    background-color:tomato;
     color:whitesmoke;
     align-content: center;
     align-items: center;
@@ -26,10 +26,10 @@
     text-align: center;
     font-size: 4rem;
     color:white;
-    background-color:teal;
+    background-color:tomato;
     padding-bottom:10px;
     height: 48px;
-    border: 2px solid thistle;
+    /* border: 2px solid thistle; */
     /* overflow: hidden; */
     display:flex;
     padding-left:30px;
@@ -37,17 +37,17 @@
 }
 
 #location {
-    border:2px solid khaki;
+    /* border:2px solid khaki; */
 
 }
 
 #full-stack{
-    border: 2px solid olive;
+    /* border: 2px solid olive; */
 
 }
 
 #email{
-    border: 2px solid lightseagreen;
+    /* border: 2px solid lightseagreen; */
 }
 
 /* #empty {

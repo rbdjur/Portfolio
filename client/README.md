@@ -1,3 +1,15 @@
+Challenges...
+
+displaying pictures within the <img src=""> tag.
+- I did'nt have the proper file structure... 
+- It is important to have images under public in the img folder.
+- in the json file I had to edit the image property to:
+
+"image":"./img/".  
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

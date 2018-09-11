@@ -7,7 +7,9 @@
     padding-right: 5rem; */
     /* margin-left:2rem;
     margin-right: 2rem; */
-    border: purple 3px solid;
+
+    /* border: purple 3px solid; */
+
     /* position:relative; */
     /* z-index: -1; */
     /* width: absolute; */
@@ -19,7 +21,10 @@
     padding-right: 5rem; */
     /* margin-left:2rem;
     margin-right: 2rem; */
-    border: green 3px solid;
+
+    /* border: green 3px solid; */
+
+
     /* position:relative; */
     /* z-index: -1; */
     /* width: absolute; */
@@ -53,12 +58,16 @@
 
 #work {
     text-align:center;
-    border: 2px solid plum;
+
+    /* border: 2px solid plum; */
+
     background-color: yellow;
 }
 
 #idk {
-    border:2px solid white;
+
+    /* border:2px solid white; */
+    
     display:flex;
 
     /* justify-content: space-between; */

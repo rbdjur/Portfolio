@@ -50,9 +50,9 @@ class App extends Component {
 
         {/* <Attributes/> */}
 
-        {/* <div className="" id="lol"> */}
+        <div className="" id="lol">
         <Footer/>
-        {/* </div> */}
+        </div>
 
         {/* {this.state.projects.map(project => (
            <Body

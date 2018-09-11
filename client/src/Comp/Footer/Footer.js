@@ -116,9 +116,9 @@ class Footer extends Component {
 
             // <div className="">
 
-                <div className="" id="footer">
+                <div className="col-12" id="footer">
                     Contact Me
-     
+                {/* </div> */}
                <div className="row">
 
                <div className="col-3" id="icon">

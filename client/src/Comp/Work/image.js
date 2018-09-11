@@ -3,15 +3,18 @@ import "./image.css"
 
 
 
-class Image extends Component {
-    render() {
-        return (
+// class Image extends Component {
+//     render() {
+//         return (
 
-            <a href=""><img className="card-img-top" src="http://placehold.it/700x400" alt="" />
-            </a>
 
-        )
-    }
-}
+const Image = props => (
+    <a href=""><img className="card-img-top" src={props.image} alt={props.name} />
+    </a>
+)
+
+//         )
+//     }
+// }
 
 export default Image

@@ -9,9 +9,9 @@ import "../Work/Work.css"
 import projects from "../../Project.json"
 // import projects from "../Navbar/Navbar"
 
-import salad from "../../Tasteful-Salad.png"
-import sc from "../../socialpic.jpg"
-import equip from "../../equiprent.jpeg"
+// import salad from "../../Tasteful-Salad.png"
+// import sc from "../../socialpic.jpg"
+// import equip from "../../equiprent.jpeg"
 
 
 
@@ -32,11 +32,20 @@ class Body extends Component {
     constructor(props) {
         super(props);
 
+    this.clickEquip = this.clickEquip.bind(this)
+    this.clickSocial = this.clickSocial.bind(this)
+    this.clickTasteful = this.clickTasteful.bind(this)
+    this.clickSite = this.clickSite.bind(this);
+
     this.state = {
         projects,
-        // equiprent: equip,
-        // socialceleb: sc,
-        // tasteful: salad,
+        equiprent: "",
+        socialceleb: "",
+        tasteful: "",
+
+        // equiprent: "https://equiprent.herokuapp.com/",
+        // socialceleb: "https://nameless-wave-15422.herokuapp.com/",
+        // tasteful: "https://tastefulteam.github.io/TastefulApp/",
         // pics: equip,sc,salad
         // pic: project.image
     };
@@ -47,9 +56,30 @@ class Body extends Component {
         console.log("experimenting to extract projects data", this.state.projects[0].image)
 
         // console.log("props.image", props.image);
-        console.log("this.state.pic for prop.image", this.state.pic);
+        console.log("this.state.pic for prop.image", this.state.pic); 
+    }
 
-        
+    clickSite(e, props) {
+        console.log("Title clicked");
+        {this.state.projects.map(project => (
+            console.log("urls to site - project.site", project.site)
+        ))}
+
+    }
+
+    clickEquip(e) {
+        console.log("equiprent click - this.state", this.state.equiprent);
+        window.location.href = this.state.equiprent;
+    }
+
+    clickSocial(e) {
+        console.log("equiprent click - this.state", this.state.equiprent);
+        window.location.href = this.state.socialceleb;
+    }
+
+    clickTasteful(e) {
+        console.log("equiprent click - this.state", this.state.equiprent);
+        window.location.href = this.state.tasteful;
     }
 
 
@@ -62,7 +92,7 @@ class Body extends Component {
 
 
                     <h4 id="work">
-                        Work Component
+                        Projects 
                     </h4>
 
                     <div className="col-12" id="idk">
@@ -78,19 +108,19 @@ class Body extends Component {
                                 image={project.image}
                                 description={project.description}
 
+                                page={project.site}
+
+                                click={this.clickSite}
 
 
-                                equiprentImage={this.state.projects[0].image}
-                                // scImage={this.state.socialceleb}
-                                // tastefulImage=""
-                                // picstate={this.state.pics}
-
-
-                                project={project}
-
+                                // equipsite={this.clickEquip}
+                                // socialsite={this.clickSocial}
+                                // tastefulsite={this.clickTasteful}
 
 
 
+                                // equiprentImage={this.state.projects[0].image}
+                            
                             />
 
 
@@ -103,12 +133,12 @@ class Body extends Component {
 
 
 
-                    <h4 id="one">one</h4>
+                    {/* <h4 id="one">one</h4>
                     <p>...</p>
                     <h4 id="two">two</h4>
                     <p>...</p>
                     <h4 id="three">three</h4>
-                    <p>...</p>
+                    <p>...</p> */}
 
 
                 </div>
