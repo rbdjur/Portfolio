@@ -23,9 +23,9 @@ class Body extends Component {
 
     this.state = {
         projects,
-        equiprent: "",
-        socialceleb: "",
-        tasteful: "",
+        equiprent: "https://equiprent.herokuapp.com/",
+        socialceleb: "https://nameless-wave-15422.herokuapp.com/",
+        tasteful: "https://tastefulteam.github.io/TastefulApp/",
         stuff: "",
     };
 
@@ -104,13 +104,13 @@ class Body extends Component {
                                 page={project.site}
 
                                 // click={this.clickSite}
-                                need={this.click}
+                                // need={this.click}
 
 
 
-                                // equipsite={this.clickEquip}
-                                // socialsite={this.clickSocial}
-                                // tastefulsite={this.clickTasteful}
+                                equipsite={this.clickEquip}
+                                socialsite={this.clickSocial}
+                                tastefulsite={this.clickTasteful}
 
 
 

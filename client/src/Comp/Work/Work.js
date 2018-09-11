@@ -67,7 +67,8 @@ const Work = props => (
                         id="card-body">
                             <h4 className="card-title">
                                 <a href={props.page}>{props.id}. {props.name}</a>
-                                <Site thing={props.page}/>
+                                <Site 
+                                thing={props.page} one={props.equipsite} two={props.socialsite} three={props.tastefulsite}/>
                             </h4>
 
                             {/* <div className="row">
