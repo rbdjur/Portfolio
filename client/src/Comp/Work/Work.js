@@ -35,6 +35,7 @@ import "./Work.css"
 
 
 const Work = props => (
+
     <div className="row" id="ha">
         <div className="col-12" id="day">
 
@@ -50,7 +51,7 @@ const Work = props => (
                         <div className="col-12" id="pic-row">
 
                             <a href="">
-                                <img src={props.image} alt={props.id} id="image"/>
+                                <img src={props.image} alt={props.id} onClick={props.need} id="image"/>
                             </a>
                         </div>
 
@@ -80,9 +81,6 @@ const Work = props => (
 
                             {/* </div> */}
 
-                            {/* <Name
-            title={props.name}
-            /> */}
 
                             <div className="col-12" id="writing" onClick={props.click}>
                             {/* <p className="card-text">{props.description}</p>

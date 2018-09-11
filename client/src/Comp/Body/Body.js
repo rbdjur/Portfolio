@@ -56,15 +56,25 @@ class Body extends Component {
         console.log("experimenting to extract projects data", this.state.projects[0].image)
 
         // console.log("props.image", props.image);
-        console.log("this.state.pic for prop.image", this.state.pic); 
+        // console.log("this.state.pic for prop.image", this.state.pic); 
     }
 
     clickSite(e) {
+        // e.preventDefault();
         console.log("Title clicked");
-        // {this.state.projects.map(project => (
-        //     console.log("urls to site - project.site", project.site)
-        // ))}
-
+       let sites = [];
+        {this.state.projects.map(project => (
+            // console.log("urls to site - project.site", project.site)
+            // let project.site = project.site
+            sites.push(project.site)
+        )
+    ); 
+    console.log("sites array", sites);
+    console.log("sites array 0 + ", sites[0])
+    console.log("sites array 1 + ", sites[1])
+    console.log("sites array 2 + ", sites[2])
+        // window.location.href = project.site;
+}
     }
 
     clickEquip(e) {
@@ -110,7 +120,8 @@ class Body extends Component {
 
                                 page={project.site}
 
-                                click={this.clickSite}
+                                // click={this.clickSite}
+                                need={this.clickSite()}
 
 
                                 // equipsite={this.clickEquip}
