@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./image.css"
 
 
@@ -9,7 +9,7 @@ import "./image.css"
 
 
 const Image = props => (
-    <a href=""><img className="card-img-top" src={props.image} alt={props.name} />
+    <a href=""><img className="card-img-top" src={props.image} alt={props.name} onclick={this.clickSite} />
     </a>
 )
 

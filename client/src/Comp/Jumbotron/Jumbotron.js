@@ -3,7 +3,7 @@ import "./Jumbotron.css"
 import ProfilePic from "./me.jpeg";
 // import Footer from "../Footer/Footer"
 
-import Attributes from "../Attributes/Atrributes";
+// import Attributes from "../Attributes/Atrributes";
 import Namebanner from "../Namebanner/Namebanner";
 
 

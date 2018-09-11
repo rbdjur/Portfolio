@@ -6,12 +6,12 @@ import React, { Component } from 'react';
 
 
 //New Components
-import Navbar from "./Comp/Navbar/Navbar"
+// import Navbar from "./Comp/Navbar/Navbar"
 import Body from "./Comp/Body/Body"
 import Jumbotron from './Comp/Jumbotron/Jumbotron';
 import Footer from "./Comp/Footer/Footer";
-import Attributes from "./Comp/Attributes/Atrributes";
-import NameBanner from "./Comp/Namebanner/Namebanner";
+// import Attributes from "./Comp/Attributes/Atrributes";
+// import NameBanner from "./Comp/Namebanner/Namebanner";
 import Para from "./Comp/Parallax/Parallax";
 // import projects from "./Project.json"
 
@@ -25,6 +25,30 @@ import Para from "./Comp/Parallax/Parallax";
 // library.add(faStroopwafel)
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.equipClick = this.equipClick.bind(this);
+    this.socialClick = this.socialClick.bind(this);
+    this.tastefulClick = this.tastefulClick.bind(this);
+  }
+
+
+
+  equipClick(e) {
+    e.preventDefault();
+    console.log("equiprent clicked");
+  };
+
+  socialClick(e) {
+    e.preventDefault();
+    console.log("social clicked");
+  };
+
+  tastefulClick(e) {
+    e.preventDefault();
+    console.log("tasteful clicked");
+  };
+
 
  showText(e) {
     e.preventDefault();
@@ -51,7 +75,7 @@ class App extends Component {
         {/* <Attributes/> */}
 
         <div className="" id="lol">
-        <Footer/>
+        <Footer equip={this.equipClick} social={this.socialClick} tasteful={this.tastefulClick}/>
         </div>
 
         {/* {this.state.projects.map(project => (

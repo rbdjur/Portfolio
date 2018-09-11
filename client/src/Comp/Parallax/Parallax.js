@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-import { Parallax, Background } from 'react-parallax';
+import React from 'react';
+import { Parallax } from 'react-parallax';
+// import { Parallax, Background } from 'react-parallax';
 import "./Parallax.css";
 
-import pic from "./ChosenOne.jpeg"
+// import pic from "./ChosenOne.jpeg"
 import picture from "./SFnew.png"
 
 

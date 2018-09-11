@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import About from "./About"
+// import About from "./About"
 import "./Body.css"
 
 import Work from "../Work/Work"
@@ -25,7 +25,7 @@ import projects from "../../Project.json"
 
 // import SFSky from "./SFSky.png";
 
-import SFSky2 from "./SFSky2.jpeg";
+// import SFSky2 from "./SFSky2.jpeg";
 
 
 class Body extends Component {
@@ -59,11 +59,11 @@ class Body extends Component {
         console.log("this.state.pic for prop.image", this.state.pic); 
     }
 
-    clickSite(e, props) {
+    clickSite(e) {
         console.log("Title clicked");
-        {this.state.projects.map(project => (
-            console.log("urls to site - project.site", project.site)
-        ))}
+        // {this.state.projects.map(project => (
+        //     console.log("urls to site - project.site", project.site)
+        // ))}
 
     }
 

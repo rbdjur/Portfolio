@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+// import React, { Component } from 'react';
 import "./Work.css"
 
 
-import Image from "./image"
-import Name from "./name"
-import Description from "./description"
+// import Image from "./image"
+// import Name from "./name"
+// import Description from "./description"
 
-import Project from "../../Project"
+// import Project from "../../Project"
 
 
 
@@ -49,7 +50,7 @@ const Work = props => (
                         <div className="col-12" id="pic-row">
 
                             <a href="">
-                                <img src={props.image} alt={props.id} id="image" onClick={props.click} />
+                                <img src={props.image} alt={props.id} id="image"/>
                             </a>
                         </div>
 
@@ -65,7 +66,7 @@ const Work = props => (
                             </h4>
 
                             <div className="row">
-                                <div className="col-12" onClick={props.click}>
+                                <div className="col-12">
 
                                     {/* <p> */}
                                         <a href={props.page} target="_blank">
@@ -83,7 +84,7 @@ const Work = props => (
             title={props.name}
             /> */}
 
-                            <div className="col-12" id="writing">
+                            <div className="col-12" id="writing" onClick={props.click}>
                             {/* <p className="card-text">{props.description}</p>
                          */}
 
