@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import "./App.css"
 
+import { Button } from 'reactstrap';
 // import { BrowswerRouter as Router, Link } from 'react-router-dom'
-
 // import Route from 'react-router-dom/Route';
 
 
-//New Components
+/* New Components */
 // import Navbar from "./Comp/Navbar/Navbar"
 import Body from "./Comp/Body/Body"
 import Jumbotron from './Comp/Jumbotron/Jumbotron';
@@ -13,9 +14,13 @@ import Footer from "./Comp/Footer/Footer";
 // import Attributes from "./Comp/Attributes/Atrributes";
 // import NameBanner from "./Comp/Namebanner/Namebanner";
 import Para from "./Comp/Parallax/Parallax";
-// import projects from "./Project.json"
+import projects from "./Project.json"
 
 
+
+/* 
+FONT 
+*/
 
 
 // import { library } from '@fortawesome/fontawesome-svg-core'
@@ -63,20 +68,15 @@ class App extends Component {
 
   render() {
     return (
-      <div 
-      // id="main"
-      >
-        {/* <Navbar/> */}
+      <div >
 
-        {/* <NameBanner/> */}
         <Jumbotron mouse={this.showText}/>
         <Para/>
 
-        {/* <Attributes/> */}
 
-        <div className="" id="lol">
+        {/* <div className="" id="lol">
         <Footer equip={this.equipClick} social={this.socialClick} tasteful={this.tastefulClick}/>
-        </div>
+        </div> */}
 
         {/* {this.state.projects.map(project => (
            <Body
@@ -85,23 +85,11 @@ class App extends Component {
            name={project.name}
            image={project.image}
            description={project.description}
-           
-           
-           
-           
-           
            />
         ))} */}
         <Body/>
 
         <Footer/>
-
-        
-
-      {/* <Menu/>
-      <Header linkedin={this.state.linkedin}/>
-      <Body/>
-      <Footer/> */}
       </div>
     );
   }

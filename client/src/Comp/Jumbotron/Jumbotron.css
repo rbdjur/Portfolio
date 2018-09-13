@@ -218,11 +218,6 @@
     margin-top:1rem;
 }
 
-
-
-
-
-
 #wow{
     /* display:flex; */
     /* justify-content:center;  */
@@ -231,18 +226,55 @@
 
 }
 
-
-
-
-
-
-
 #look {
     border:2px solid cadetblue;
     /* overflow: hidden; */
     /* visibility: hidden; */
 
 }
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border:2px solid red;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    border:2px solid blue;
+
+  }
+  .two { 
+    grid-column: 2;
+    grid-row: 1 / 3;
+    border:2px solid red;
+
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 3 / 5;
+    border:2px solid blue;
+
+  }
+  .four {
+    grid-column: 2;
+    grid-row: 3 / 5;
+    border:2px solid red;
+
+  }
+
+  #spacing {
+      margin-left: 2rem;
+      margin-right:2rem;
+  }
+
+  .header {
+    text-align:center;
+    text-decoration: underline;
+  }
 
 
 
