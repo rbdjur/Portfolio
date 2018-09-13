@@ -15,6 +15,7 @@ import Footer from "./Comp/Footer/Footer";
 // import NameBanner from "./Comp/Namebanner/Namebanner";
 import Para from "./Comp/Parallax/Parallax";
 import projects from "./Project.json"
+import Intro from "./Comp/Intro/Intro";
 
 
 
@@ -69,7 +70,7 @@ class App extends Component {
   render() {
     return (
       <div >
-
+        <Intro/>
         <Jumbotron mouse={this.showText}/>
         <Para/>
 
