@@ -6,6 +6,8 @@ import ProfilePic from "./me.jpeg";
 // import Attributes from "../Attributes/Atrributes";
 import Namebanner from "../Namebanner/Namebanner";
 
+import { Badge } from 'reactstrap';
+
 
 
 class Jumbotron extends Component {
@@ -146,18 +148,18 @@ class Jumbotron extends Component {
 
     <div className="wrapper">
                 <div className="one">
-                <div className="header">
+                {/* <div className="header">
                 Experience / Background
-                </div>
+                </div> */}
+                <h1><Badge color="light">Experience / Background</Badge></h1>
+
                 <p id="spacing">
                 I have work experience in the health and medical industry working with patients, M.D.'s, and researchers. After several years of work experience, I want to expand my skillset and begin a career in the technology industry in the Bay Area.
                     </p>
 
                 </div>
                 <div className="two">
-                <div className="header">
-                Technologies
-                </div>
+                <h1><Badge color="light">Page Technologies</Badge></h1>
                 <p id="spacing">
 
                         React.Js
@@ -188,9 +190,7 @@ class Jumbotron extends Component {
 
                 </div>
                 <div className="three">
-                <div className="header">
-                Fun Facts
-                </div>
+                <h1><Badge color="light">Fun Facts</Badge></h1>
 
                 <p id="spacing">
                         <ul>
@@ -214,9 +214,7 @@ class Jumbotron extends Component {
 
                 </div>
                 <div className="four">
-                <div className="header">
-                Portfolio Purpose
-                </div>
+                <h1><Badge color="light">Portfolio</Badge></h1>
                 <p id="spacing">
                         This portolio is a space to showcase my projects.  Furthermore, this space is an area for me to experiment with new CSS (effects and animations) + HTML I discover.
                 </p>

@@ -1,24 +1,46 @@
 import React, { Component } from 'react';
 import "./Intro.css"
 
-class Intro extends Component {
+// import Pic from "../../../public/img/ProPic.jpg"
+// import Pic from "../../"
 
-    render() {
-        return (
+// class Intro extends Component {
 
-    <div className="wrapper">
-    <div className="one">
-    One
-    </div>
+//     render() {
+//         return (
 
-    <div className="two">
-    Two
-    </div>
+//     <div className="wrapper">
+//     <div className="picture">
+//     One
+//     {/* {Pic} */}
+//     </div>
 
-    </div>
+//     <div className="two">
+//     Two
+//     </div>
 
+//     </div>
+
+//     )
+// }
+// }
+
+function Intro(props) {
+    return (
+
+            <div className="wrapper">
+
+            <div className="picture">
+            <img src={props.pic} alt="Ronaldo DeGuzman" id="pic"></img>
+            {/* One */}
+            {/* {Pic} */}
+            </div>
+        
+            <div className="two">
+            Two
+            </div>
+            </div>
     )
-}
 }
 
 export default Intro

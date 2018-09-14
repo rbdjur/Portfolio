@@ -15,6 +15,7 @@ import Footer from "./Comp/Footer/Footer";
 // import NameBanner from "./Comp/Namebanner/Namebanner";
 import Para from "./Comp/Parallax/Parallax";
 import projects from "./Project.json"
+import profiles from "./Profile.json"
 import Intro from "./Comp/Intro/Intro";
 
 
@@ -62,15 +63,25 @@ class App extends Component {
     alert("Mouse moved");
   }
 
-  // state = {
-  //   projects,
-  // };
+  state = {
+    // projects,
+    profiles
+  };
 
 
   render() {
     return (
       <div >
-        <Intro/>
+
+      {this.state.profiles.map(profile => (
+      <Intro
+      id={profile.id}
+      pic={profile.pic}
+      exp={profile.exp}
+      port={profile.port}
+      />
+      ))}
+        {/* <Intro/> */}
         <Jumbotron mouse={this.showText}/>
         <Para/>
 
