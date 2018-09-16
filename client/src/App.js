@@ -85,7 +85,6 @@ class App extends Component {
         <Jumbotron mouse={this.showText}/>
         <Para/>
 
-
         {/* <div className="" id="lol">
         <Footer equip={this.equipClick} social={this.socialClick} tasteful={this.tastefulClick}/>
         </div> */}
@@ -100,8 +99,9 @@ class App extends Component {
            />
         ))} */}
         <Body/>
-
         <Footer/>
+
+        {/* <Footer/> */}
       </div>
     );
   }

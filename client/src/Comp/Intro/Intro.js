@@ -32,6 +32,7 @@ function Intro(props) {
 
             <div className="picture">
             <img src={props.pic} alt="Ronaldo DeGuzman" id="pic"></img>
+            Me
             {/* One */}
             {/* {Pic} */}
             </div>
