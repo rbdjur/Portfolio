@@ -113,138 +113,51 @@ class Footer extends Component {
 
     render() {
         return (
-
-            //         <div className="col-12" id="footer">
-            //             Contact Me
-            //        <div className="row">
-
-            //        <div className="col-3" id="icon">
-
-
-
-
-
-
-
-            //                 <i className="fab fa-linkedin"
-
-            //                 onClick={this.handleLinkedInClick}
-            //                 value={this.state.linkedin}
-            //                 ></i>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //           <div className="col-3" id="location">
-            //         <p>
-            //             Bay Area, CA
-            //         </p>
-
-            //         </div>
-
-            //         <div className="col-3" id="full-stack">
-            //         <p>
-            //             Full-Stack Web Developer
-            //             </p>
-            //         </div>
-
-            //         <div className="col-3" id="email">
-            //         <p>
-            //             ronaldodeguzmanjr@gmail.com
-            //             </p>
-            //         </div>
-
-
-            //     </div>
-            //     </div>
-            // )
-
             <div className="f-container" id="footer">
 
                 <div className="header-one">
                     Contact Me
-            </div>
 
                 <div className="icon" id="icon">
 
-                    <i className="fab fa-github"
+                        <i className="fab fa-github"
 
-                        onClick={this.handleGithubClick}
+                            onClick={this.handleGithubClick}
 
-                        value={this.state.github}
-                    // id="icon"
-                    >
-                    </i>
+                            value={this.state.github}
+                        >
+                        </i>
 
+                        <i className="fab fa-linkedin"
 
+                            onClick={this.handleLinkedInClick}
+                            value={this.state.linkedin}
+                        >
+                        </i>
 
-                    <i className="fab fa-linkedin"
+                        <i className="fab fa-twitter-square"
+                            onClick={this.handleTwitterClick}
+                            value={this.state.twitter}
 
-                        onClick={this.handleLinkedInClick}
-                        value={this.state.linkedin}
-                    // id="icon"
-                    >
-                    </i>
+                        ></i>
 
+                        <i className="far fa-file-alt"
+                            onClick={this.handleResumeClick}
+                            value={this.state.resumegoogledrive}
+                            href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
 
-                    <i className="fab fa-twitter-square"
-                        onClick={this.handleTwitterClick}
-                        value={this.state.twitter}
+                        ></i>
+                        </div>
 
-                    ></i>
-
-
-
-
-
-
-
-
-
-
-
-                    <i className="far fa-file-alt"
-                        onClick={this.handleResumeClick}
-                        value={this.state.resumegoogledrive}
-                        href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
-
-                    ></i>
+                        <div className="text">
+                            <p id="contact-cont">
+                                Bay Area, CA &nbsp; x &nbsp;
+                                Full-Stack Web Developer &nbsp; x &nbsp; 
+                                ronaldodeguzmanjr@gmail.com
+                            </p>
+                        </div>
                 </div>
-            </div>
-
-
-
-
-
-
-            // </div >
+            </div >
         )
     }
 }
