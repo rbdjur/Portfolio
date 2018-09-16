@@ -108,9 +108,6 @@ class Footer extends Component {
         // <Link to ={this.state.github}/>
     }
 
-
-
-
     render() {
         return (
             <div className="f-container" id="footer">
