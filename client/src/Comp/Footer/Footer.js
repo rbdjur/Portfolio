@@ -113,11 +113,11 @@ class Footer extends Component {
             <div className="f-container" id="footer">
 
                 <div className="header-one">
-                <p id="contact-cont">
+                    <p id="contact-cont">
                                 Bay Area, CA &nbsp; x &nbsp;
                                 Full-Stack Web Developer &nbsp; x &nbsp; 
                                 ronaldodeguzmanjr@gmail.com
-                            </p>
+                    </p>
 
                 {/* <div className="icon" id="icon"> */}
 

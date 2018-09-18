@@ -82,21 +82,26 @@ class Body extends Component {
                 {/* <Work/>
                 stuff */}
                 <div className="work">
-                    <div className="title">
+                    <div className="p-title">
                         Projects
                     </div>
 
+                    <div className="p-one">
+                        One
+                    </div>
 
-                    {/* <div className="">
-          Two
-          </div> */}
-                    {/* <div className="">
-          three
-          </div> */}
+
+                    <div className="p-two">
+                        Two
+                    </div>
+
+                    <div className="p-three">
+                        three
+                    </div>
                 </div>
-                <div className="body">
+                {/* <div className="body">
                     Two , Three ,Four
-                </div>
+                </div> */}
 
 
 

@@ -34,6 +34,7 @@
     align-items: center;
     text-align: center;
     color:whitesmoke;
+    padding-bottom: 4rem;
 
 }
 
@@ -63,9 +64,10 @@
 
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-gap: 10px; */
-    grid-auto-rows: minmax(100px, auto);
+    /* grid-auto-rows: minmax(100px, auto); */
+    grid-auto-rows: minmax(50px, auto);
     width:100vw;
-    height:20%;
+    height:40%;
     position:fixed;
     top:580px;
     z-index: 1;
@@ -74,17 +76,17 @@
     /* align-content: center;
     align-items: center;
     text-align: center; */
-    /* padding-top:3px; */
+    /* padding-bottom:3px; */
     border:2px solid white;
 }
 
 #i {
-    font-size:4.00rem;
+    font-size:3.00rem;
     /* display:flex;
     justify-content: space-around; */
     letter-spacing: 1rem;
     border:2px solid blue;
-    padding-top:2rem;
+    /* margin-bottom:5rem; */
 }
 
 
