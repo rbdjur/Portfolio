@@ -113,14 +113,18 @@ class Footer extends Component {
             <div className="f-container" id="footer">
 
                 <div className="header-one">
-                    Contact Me
+                <p id="contact-cont">
+                                Bay Area, CA &nbsp; x &nbsp;
+                                Full-Stack Web Developer &nbsp; x &nbsp; 
+                                ronaldodeguzmanjr@gmail.com
+                            </p>
 
-                <div className="icon" id="icon">
+                {/* <div className="icon" id="icon"> */}
 
                         <i className="fab fa-github"
 
                             onClick={this.handleGithubClick}
-
+                            id="i"
                             value={this.state.github}
                         >
                         </i>
@@ -128,31 +132,34 @@ class Footer extends Component {
                         <i className="fab fa-linkedin"
 
                             onClick={this.handleLinkedInClick}
+                            id="i"
                             value={this.state.linkedin}
                         >
                         </i>
 
                         <i className="fab fa-twitter-square"
                             onClick={this.handleTwitterClick}
+                            id="i"
                             value={this.state.twitter}
 
                         ></i>
 
                         <i className="far fa-file-alt"
                             onClick={this.handleResumeClick}
+                            id="i"
                             value={this.state.resumegoogledrive}
                             href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
 
                         ></i>
-                        </div>
+                        {/* </div> */}
 
-                        <div className="text">
+                        {/* <div className="text">
                             <p id="contact-cont">
                                 Bay Area, CA &nbsp; x &nbsp;
                                 Full-Stack Web Developer &nbsp; x &nbsp; 
                                 ronaldodeguzmanjr@gmail.com
                             </p>
-                        </div>
+                        </div> */}
                 </div>
             </div >
         )

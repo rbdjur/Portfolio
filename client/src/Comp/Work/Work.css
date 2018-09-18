@@ -13,6 +13,19 @@
     grid-column:2;
     text-align: center;
     border: 2px solid purple;
+    z-index:0;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border:2px solid  blueviolet;
+    background-color:seagreen;
+    z-index:0;
+
 }
 
 

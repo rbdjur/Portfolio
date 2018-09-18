@@ -34,12 +34,12 @@ import picture from "./SFnew.png"
                     blur={0}
                     bgImage={picture}
                     bgImageAlt="San Francisco Skyline"
-                    strength={50}
+                    strength={45}
                   >
                     {/* Put some text content here
                     or even an empty div with fixed dimensions
                     to have a height for the parallax. */}
-                    <div style={{ height: '680px' }} />
+                    <div style={{ height: '665px' }} />
                   </Parallax>
                    
 

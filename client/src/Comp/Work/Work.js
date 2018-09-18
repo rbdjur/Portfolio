@@ -23,10 +23,9 @@ class Work extends Component {
           {/* <div className="">
           three
           </div> */}
-        
         </div>
-        <div className="">
-          Two
+        <div className="body">
+          Two , Three ,Four
           </div>
 
 
