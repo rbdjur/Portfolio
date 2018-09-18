@@ -1,3 +1,22 @@
+.work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border:2px solid  green;
+    background-color:teal;
+    /* text-align:center; */
+}
+
+.title {
+    grid-column:2;
+    text-align: center;
+    border: 2px solid purple;
+}
+
+
+
 /* .container {
     align-content: center;
     align-items: center;

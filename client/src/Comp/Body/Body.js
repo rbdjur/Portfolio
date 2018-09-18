@@ -78,68 +78,59 @@ class Body extends Component {
 
     render() {
         return (
-
-            <div id="hey">
-                <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" id="body">
-
-
-
-                    <h4 id="work">
-                        Projects 
-                    </h4>
-
-                    <div className="col-12" id="idk">
-                        {/* <div className="row"  */}
-                        {/* id="text" */}
-
-                        {this.state.projects.map(project => (
-                            <Work
-
-                                id={project.id}
-                                key={project.id}
-                                name={project.name}
-                                image={project.image}
-                                description={project.description}
-
-                                page={project.site}
-
-                                // click={this.clickSite}
-                                // need={this.click}
-
-
-
-                                equipsite={this.clickEquip}
-                                socialsite={this.clickSocial}
-                                tastefulsite={this.clickTasteful}
-
-
-
-                                // equiprentImage={this.state.projects[0].image}
-                            
-                            />
-
-
-                        ))}
-
-                        {/* <Work/> */}
-
-                    </div>
-                    {/* </div> */}
-
-
-
-                    {/* <h4 id="one">one</h4>
-                    <p>...</p>
-                    <h4 id="two">two</h4>
-                    <p>...</p>
-                    <h4 id="three">three</h4>
-                    <p>...</p> */}
-
-
-                </div>
+            <div>
+                <Work/>
+                stuff
             </div>
 
+
+
+
+
+
+
+
+
+            // <div id="hey">
+            //     <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" id="body">
+
+
+
+            //         <h4 id="work">
+            //             Projects 
+            //         </h4>
+
+            //         <div className="col-12" id="idk">
+                        
+
+            //             {this.state.projects.map(project => (
+            //                 <Work
+
+            //                     id={project.id}
+            //                     key={project.id}
+            //                     name={project.name}
+            //                     image={project.image}
+            //                     description={project.description}
+
+            //                     page={project.site}
+
+                
+            //                     equipsite={this.clickEquip}
+            //                     socialsite={this.clickSocial}
+            //                     tastefulsite={this.clickTasteful}
+                            
+            //                 />
+
+
+            //             ))}
+
+
+            //         </div>
+
+
+            //     </div>
             // </div>
+
 
         )
     }
