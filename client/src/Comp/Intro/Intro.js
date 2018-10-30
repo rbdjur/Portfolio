@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
-import "./Intro.css"
 
-// import Pic from "../../../public/img/ProPic.jpg"
-// import Pic from "../../"
 
-// class Intro extends Component {
+// import "./Intro.css"
+// import { Media } from 'reactstrap';
+// import Pic from "../../img/ProPic.jpg"
 
-//     render() {
-//         return (
+// const Intro = (props) => {
+//   return (
+//     <Media>
+//       <Media left href="#">
+//         {/* <Media object data-src={Pic} alt="" /> */}
+//         <Media src={Pic} alt="" />
+//       </Media>
+//       <Media body>
+//         <Media heading>
+//           Media heading
+//         </Media>
+//         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+//       </Media>
+//     </Media>
+//   );
+// };
 
-//     <div className="wrapper">
-//     <div className="picture">
-//     One
-//     {/* {Pic} */}
-//     </div>
-
-//     <div className="two">
-//     Two
-//     </div>
-
-//     </div>
-
-//     )
-// }
-// }
+// export default Example;
 
 function Intro(props) {
     return (

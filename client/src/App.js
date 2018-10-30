@@ -20,6 +20,8 @@ import Intro from "./Comp/Intro/Intro";
 
 
 
+
+
 /* 
 FONT 
 */
@@ -73,14 +75,15 @@ class App extends Component {
     return (
       <div >
 
-      {this.state.profiles.map(profile => (
+      {/* {this.state.profiles.map(profile => (
       <Intro
       id={profile.id}
       pic={profile.pic}
       exp={profile.exp}
       port={profile.port}
       />
-      ))}
+      ))} */}
+
         {/* <Intro/> */}
         <Jumbotron mouse={this.showText}/>
         <Para/>
