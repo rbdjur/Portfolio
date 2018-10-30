@@ -33,38 +33,32 @@ class Jumbotron extends Component {
                 <h1><Badge id="title" color="light">Experience / Background</Badge></h1>
 
                 <p id="spacing">
-                I have work experience in the health and medical industry working with patients, M.D.'s, and researchers. For further work experience please visit my LinkedIn page by clicking on the LinkedIn icon in the footer 
+                I have work experience in the health and medical industry working with patients in clinical and outpatient setting as well as with M.D.'s and researchers at University of California, San Francisco. 
+                
+                <br/>
+                <br/>
+                 For further work experience please visit my LinkedIn page by clicking on the LinkedIn icon in the footer. 
                     </p>
 
                 </div>
                 <div className="two">
-                <h1><Badge id="title" color="light">Page Technologies</Badge></h1>
+                <h1><Badge id="title" color="light"> Technologies</Badge></h1>
                 <p id="spacing">
 
                         React.Js
                              <i className="fab fa-react" id="react"></i>
-                        &nbsp;
-                            and  &nbsp; Javascript <i className="fab fa-js" id="javascript"></i> &nbsp;
+                        &nbsp;and&nbsp;Javascript <i className="fab fa-js" id="javascript"></i> 
+                            
+                            &nbsp;
+                            
+                            {/* &nbsp; */}
 
-                  are the two main libraries used to create my portfolio.  
+
+                  are examples of a library and computer programming language I am most familiar with, respectively.
                   <br/>
                   <br/>
-                  Other technologies used:
-                  <ul>
-                      <li>
-                        parralax.js
-                      </li>
-                      <li>
-                      CSS Grid
-                      </li>
-                      <li>
-                      React-Strap (currently implementing)
-                      </li>
-                      <li>
-                      Bootstrap 4
-                      </li>  
-                      </ul>
 
+                  I have previous experience using Node.jS, JQuery, HTML, CSS, MongoDB, MySQL, and Handlebars.js. 
                     </p>
 
                 </div>
