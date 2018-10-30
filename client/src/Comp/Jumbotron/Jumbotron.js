@@ -63,23 +63,23 @@ class Jumbotron extends Component {
 
                 </div>
                 <div className="three">
-                <h1><Badge id="title" color="light">Fun Facts</Badge></h1>
+                <h1><Badge id="title" color="light">About Me</Badge></h1>
 
                 <p id="spacing">
                         <ul>
                             <li>
-                                I lost 25 pounds at 9 years old.
-
-                                             </li>
+                                I lost twenty-five pounds at nine years old.
+                                </li>
                             <li>
                                 I am a meal prep enthusiast.
                                  </li>
-                            <li>
-                                I am "Art-C", not artsy.
-                                 </li>
+                            {/* <li>
+
+
+                                 </li> */}
 
                             <li>
-                                I volunteer at A Meal With Dignity, a non-profit organization that feeds the homeless in San Francisco.
+                                I am a volunteer at A Meal With Dignity, a non-profit organization that makes a hundred sandwiches on the first Saturday of the month and distributes to the homeless in San Francisco.
                                  </li>
                         </ul>
 
@@ -89,7 +89,7 @@ class Jumbotron extends Component {
                 <div className="four">
                 <h1><Badge id="title" color="light">Portfolio</Badge></h1>
                 <p id="spacing">
-                        This portolio is a space to showcase my projects.  Furthermore, this space is an area for me to experiment with new CSS (effects and animations) + HTML I discover.
+                        This portolio is a space to showcase my projects and work.  Currently, this page is built using React.js and Javscript.  As I build my skillset using other languages, I want to use my portofolio as a location to practice and track my progression.  
                 </p>
 
                 </div>
