@@ -78,6 +78,11 @@ class Body extends Component {
         window.location.href = this.state.tasteful;
     }
 
+    // clickSite(e) {
+    //     let web; 
+
+    // }
+
 
     render() {
         return (
@@ -89,23 +94,34 @@ class Body extends Component {
                     Projects
                     </div>
 
-                    {this.state.projects.map((stuff, index) => (
-                        <div className="p-one" id="projects">
-    
-                        <img src={stuff.image} alt={stuff.name} id="image"/>
+                    {this.state.projects.map((stuff, i) => (
+                        <div className="p-one" id="projects" key={stuff.id}>
                         
-                        <p key={index} id="name">{stuff.name}</p>
-
-
-                        <div key={index}> 
+                        <div id="image">
+                            <img src={stuff.image} alt={stuff.name} />
+                        </div>
+                        
+                        <div id="name">
+                            <p>
+                                <a href={stuff.site} target="_blank">
+                                {stuff.name}
+                                </a>
+                            </p>
+                        </div>
+                       
+                        <div id="description">
                         {stuff.description}
                         </div>
+
+
+                        {/* <div key={index}> 
+                        
+                        </div> */}
                         {/* <p key={index}>{stuff.description}</p> */}
                         </div>
                          ))}
     
-                        </div>
-
+                    </div>
                  </div>
             
 
