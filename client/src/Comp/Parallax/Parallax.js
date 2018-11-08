@@ -39,6 +39,7 @@ import picture from "./SFnew.png"
                     {/* Put some text content here
                     or even an empty div with fixed dimensions
                     to have a height for the parallax. */}
+
                     <div style={{ height: '665px' }} />
                   </Parallax>
                    

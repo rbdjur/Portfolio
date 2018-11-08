@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 // import About from "./About"
 import "./Body.css"
 
-import Work from "../Work/Work"
-import "../Work/Work.css"
+// import Work from "../Work/Work"
+// import "../Work/Work.css"
 
 import projects from "../../Project.json"
 
@@ -29,10 +29,13 @@ class Body extends Component {
             stuff: "",
         };
 
-        console.log("this is console.log for tasteful with image ", this.state.pics);
-        console.log("projects", this.state.projects);
+        console.log("projects", this.state.projects[0]);
 
-        console.log("experimenting to extract projects data", this.state.projects[0].image)
+        console.log("projects - equiprent- images", this.state.projects[0].image);
+
+        console.log("projects - tasteful- images", this.state.projects[1].image);
+
+
 
     }
 
@@ -79,9 +82,28 @@ class Body extends Component {
     render() {
         return (
             <div>
-                {/* <Work/>
-                stuff */}
+                {/* <Work/> */}
+
                 <div className="work">
+                    <div className="p-title">
+                    Projects
+                    </div>
+
+                    {this.state.projects.map((stuff, index) => (
+                        <div className="p-one" id="projects">
+
+                        
+                        <p key={index}>{stuff.name}</p>
+                        </div>
+                         ))}
+    
+                        </div>
+
+                 </div>
+            
+
+
+                /* <div className="work">
                     <div className="p-title">
                         Projects
                     </div>
@@ -98,14 +120,17 @@ class Body extends Component {
                     <div className="p-three">
                         three
                     </div>
-                </div>
-                {/* <div className="body">
-                    Two , Three ,Four
-                </div> */}
+                </div>  */
+
+            // </div>
+
+
+            
 
 
 
-            </div>
+
+
 
 
 

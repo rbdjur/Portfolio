@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./App.css"
 
-import { Button } from 'reactstrap';
+// import { Button } from 'reactstrap';
 // import { BrowswerRouter as Router, Link } from 'react-router-dom'
 // import Route from 'react-router-dom/Route';
 
@@ -16,7 +16,7 @@ import Footer from "./Comp/Footer/Footer";
 import Para from "./Comp/Parallax/Parallax";
 import projects from "./Project.json"
 import profiles from "./Profile.json"
-import Intro from "./Comp/Intro/Intro";
+// import Intro from "./Comp/Intro/Intro";
 
 
 
@@ -101,7 +101,7 @@ class App extends Component {
            description={project.description}
            />
         ))} */}
-        <Body/>
+        <Body projects={projects}/>
         <Footer/>
 
         {/* <Footer/> */}

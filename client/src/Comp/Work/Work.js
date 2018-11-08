@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import "./Work.css"
 
-import Site from "./site"
+// import Site from "./site"
 import "./site.css"
 
 

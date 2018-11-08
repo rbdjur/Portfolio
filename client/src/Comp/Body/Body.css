@@ -27,8 +27,10 @@
     display: grid;
     /* grid-template-columns: repeat (3, 1fr);
     grid-template-rows: repeat (3, 1fr); */
-    grid-column: 1;
-    grid-row: 2;
+    grid-template-columns: repeat(3, .5fr);
+    grid-template-rows: repeat (3, .5fr);
+    grid-column: 2;
+    /* grid-row: 2;  */
     border: 2px solid yellow;
 }
 
@@ -49,6 +51,17 @@
     grid-column: 3;
     grid-row: 2;
     border: 2px solid olivedrab;
+}
+
+
+#projects {
+    display:grid;
+    grid-template-columns: repeat(3, .5fr);
+    grid-template-rows: repeat (3, .5fr);
+    /* grid-column: 1/3; */
+    /* grid-row: 2; */
+    border: 2px solid pink;
+    height: 50rem;
 }
 /* #thing {
     position: relative;

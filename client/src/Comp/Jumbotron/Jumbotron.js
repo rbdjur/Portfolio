@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./Jumbotron.css"
 import "./J.css"
 
-import ProfilePic from "./me.jpeg";
+// import ProfilePic from "./me.jpeg";
 // import Footer from "../Footer/Footer"
 
 // import Attributes from "../Attributes/Atrributes";
@@ -82,7 +82,6 @@ class Jumbotron extends Component {
                                 I am a volunteer at A Meal With Dignity, a non-profit organization that makes a hundred sandwiches on the first Saturday of the month and distributes to the homeless in San Francisco.
                                  </li>
                         </ul>
-
                     </p>
 
                 </div>
