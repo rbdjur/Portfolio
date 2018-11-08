@@ -92,11 +92,13 @@ class Body extends Component {
                     {this.state.projects.map((stuff, index) => (
                         <div className="p-one" id="projects">
     
-                        <img src={stuff.image} alt={stuff.name}/>
-                        <p key={index}>{stuff.name}</p>
+                        <img src={stuff.image} alt={stuff.name} id="image"/>
+                        
+                        <p key={index} id="name">{stuff.name}</p>
+
+
                         <div key={index}> 
                         {stuff.description}
-
                         </div>
                         {/* <p key={index}>{stuff.description}</p> */}
                         </div>
