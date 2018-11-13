@@ -4,7 +4,12 @@ import { Parallax } from 'react-parallax';
 import "./Parallax.css";
 
 // import pic from "./ChosenOne.jpeg"
-import picture from "./SFnew.png"
+// import picture from "./SFnew.png"
+
+
+// import pic from "../../public/img/SFnewcopy.png"
+// import background from "../../Profile.json"
+// import it from "../../../public/img/SFnewcopy.png"
 
 
 // import pic from "./SFSky.jpeg"
@@ -16,7 +21,7 @@ import picture from "./SFnew.png"
             // hi
             // </div>
 
-            const Para = () => (
+            const Para = (props) => (
                 <div id="p">
                   {/* <Parallax
                     blur={10}
@@ -32,9 +37,9 @@ import picture from "./SFnew.png"
                     <Parallax
                     
                     blur={0}
-                    bgImage={picture}
+                    bgImage={props.background}
                     bgImageAlt="San Francisco Skyline"
-                    strength={45}
+                    strength={120}
                   >
                     {/* Put some text content here
                     or even an empty div with fixed dimensions

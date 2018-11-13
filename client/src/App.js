@@ -5,6 +5,7 @@ import "./App.css"
 /* New Components */
 import Body from "./Comp/Body/Body"
 import Jumbotron from './Comp/Jumbotron/Jumbotron';
+// import Info from './Comp/Jumbotron/Jumbotron';
 import Footer from "./Comp/Footer/Footer";
 import Para from "./Comp/Parallax/Parallax";
 import projects from "./Project.json"
@@ -22,9 +23,16 @@ FONT
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      profiles
+    };
     this.equipClick = this.equipClick.bind(this);
     this.socialClick = this.socialClick.bind(this);
     this.tastefulClick = this.tastefulClick.bind(this);
+    
+    console.log("This is profiles imported", profiles)
+    console.log("accessing the parralax property of the first index of the profiles array", profiles[0].parralax)
+
   }
 
 
@@ -51,17 +59,13 @@ class App extends Component {
     alert("Mouse moved");
   }
 
-  state = {
-    profiles
-  };
-
-
   render() {
     return (
       <div >
         <Jumbotron mouse={this.showText}/>
+        {/* <Info mouse={this.showText} /> */}
         <Footer/>
-        <Para/>  
+        <Para background={this.state.profiles[0].parralax} />  
         <Body projects={projects}/>
       </div>
     );

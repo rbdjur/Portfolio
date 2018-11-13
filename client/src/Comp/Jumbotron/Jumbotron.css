@@ -27,7 +27,7 @@
 .wrapper {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     /* grid-auto-rows: minmax(100px, auto); */
     grid-auto-rows: minmax(50px);
@@ -70,11 +70,10 @@
 
   #title {
     display:flex;
-
     text-align: center;
     color: wheat;
     background-color:olive;
-    
+  
     justify-content: center;
     justify-items: center;
     text-decoration: underline;

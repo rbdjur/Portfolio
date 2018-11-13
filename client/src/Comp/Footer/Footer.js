@@ -117,39 +117,31 @@ class Footer extends Component {
                                 Full-Stack Web Developer &nbsp; x &nbsp; 
                                 ronaldodeguzmanjr@gmail.com
                     </p>
-                    
-                        <i className="fab fa-github"
+                {/* </div> */}
 
-                            onClick={this.handleGithubClick}
-                            id="i"
-                            value={this.state.github}
-                        >
-                        </i>
+                <div className="social">
+                    <i className="fab fa-github" onClick={this.handleGithubClick}id="i" value={this.state.github}>
+                    </i>
 
-                        <i className="fab fa-linkedin"
+                    <i className="fab fa-linkedin" onClick={this.handleLinkedInClick} id="i" value={this.state.linkedin}>
+                    </i>
 
-                            onClick={this.handleLinkedInClick}
-                            id="i"
-                            value={this.state.linkedin}
-                        >
-                        </i>
+                    <i className="fab fa-twitter-square"
+                    onClick={this.handleTwitterClick}
+                    id="i"
+                    value={this.state.twitter}>
+                    </i>
 
-                        <i className="fab fa-twitter-square"
-                            onClick={this.handleTwitterClick}
-                            id="i"
-                            value={this.state.twitter}
+                    <i className="far fa-file-alt"
+                    onClick={this.handleResumeClick}
+                    id="i"
+                    value={this.state.resumegoogledrive}
+                    href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG">
+                    </i>
+                </div> 
 
-                        ></i>
-
-                        <i className="far fa-file-alt"
-                            onClick={this.handleResumeClick}
-                            id="i"
-                            value={this.state.resumegoogledrive}
-                            href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
-
-                        ></i>
                 </div>
-            </div >
+            </div>
         )
     }
 }
