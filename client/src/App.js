@@ -86,6 +86,7 @@ class App extends Component {
 
         {/* <Intro/> */}
         <Jumbotron mouse={this.showText}/>
+        <Footer/>
         <Para/>
 
         {/* <div className="" id="lol">
@@ -102,7 +103,6 @@ class App extends Component {
            />
         ))} */}
         <Body projects={projects}/>
-        <Footer/>
 
         {/* <Footer/> */}
       </div>
