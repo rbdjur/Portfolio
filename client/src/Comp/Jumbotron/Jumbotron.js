@@ -144,9 +144,11 @@ class Jumbotron extends Component {
                                 <li>
                                 I am a meal prep enthusiast.
                                 </li>
-                            <li>
 
-                                 </li>
+
+                            {/* <li>
+
+                            </li> */}
 
                                 <li>
                                 I am a volunteer at A Meal With Dignity, a non-profit organization that makes a hundred sandwiches on the first Saturday of the month and distributes to the homeless in San Francisco.
