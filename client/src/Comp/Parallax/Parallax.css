@@ -1,5 +1,4 @@
 #p {
-    /* border:2px solid seagreen; */
     margin-bottom: 2rem;
     margin-top:0rem;
     height:50%;
@@ -9,10 +8,10 @@
     /* potential options */
     /* background-color:cornsilk; */
     /* background-color:floralwhite */
-    /* background-color:rosybrown; */
+    background-color:rosybrown;
 
     /* This is the closet match to the background of the skyline */
-    background-color: ivory;
+    /* background-color: ivory; */
 
     
 

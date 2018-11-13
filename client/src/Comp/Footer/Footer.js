@@ -120,23 +120,32 @@ class Footer extends Component {
                 {/* </div> */}
 
                 <div className="social">
-                    <i className="fab fa-github" onClick={this.handleGithubClick}id="i" value={this.state.github}>
+                    <i className="fab fa-github" 
+                    onClick={this.handleGithubClick}id="i" 
+                    value={this.state.github}
+                    target="_blank">
                     </i>
 
-                    <i className="fab fa-linkedin" onClick={this.handleLinkedInClick} id="i" value={this.state.linkedin}>
+                    <i className="fab fa-linkedin" 
+                    onClick={this.handleLinkedInClick} 
+                    id="i" 
+                    value={this.state.linkedin}
+                    target="_blank">
                     </i>
 
                     <i className="fab fa-twitter-square"
                     onClick={this.handleTwitterClick}
                     id="i"
-                    value={this.state.twitter}>
+                    value={this.state.twitter}
+                    target="_blank">
                     </i>
 
                     <i className="far fa-file-alt"
                     onClick={this.handleResumeClick}
                     id="i"
                     value={this.state.resumegoogledrive}
-                    href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG">
+                    href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
+                    target="_blank">
                     </i>
                 </div> 
 
