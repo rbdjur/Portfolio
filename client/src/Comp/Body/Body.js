@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 
-// import About from "./About"
 import "./Body.css"
-
-// import Work from "../Work/Work"
-// import "../Work/Work.css"
-
 import projects from "../../Project.json"
-
-
-
 
 
 class Body extends Component {
@@ -34,9 +26,6 @@ class Body extends Component {
         console.log("projects - equiprent- images", this.state.projects[0].image);
 
         console.log("projects - tasteful- images", this.state.projects[1].image);
-
-
-
     }
 
     click(e) {
@@ -78,16 +67,12 @@ class Body extends Component {
         window.location.href = this.state.tasteful;
     }
 
-    // clickSite(e) {
-    //     let web; 
-
-    // }
+  
 
 
     render() {
         return (
             <div>
-                {/* <Work/> */}
 
                 <div className="work">
                     <div className="p-title">

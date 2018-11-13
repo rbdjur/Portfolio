@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import "./Jumbotron.css"
-// import "./J.css"
 
-// import ProfilePic from "./me.jpeg";
-// import Footer from "../Footer/Footer"
-
-// import Attributes from "../Attributes/Atrributes";
 import Namebanner from "../Namebanner/Namebanner";
 
 import { Badge } from 'reactstrap';
@@ -23,7 +18,11 @@ class Jumbotron extends Component {
     render(props) {
         return (
 <div>
+
+
     <Namebanner />
+
+    
     <div className="wrapper">
                 <div className="one">
                     <h1><Badge id="title" color="light">Experience / Background</Badge></h1>
