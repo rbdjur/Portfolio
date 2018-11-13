@@ -3,21 +3,21 @@
       "id": 1,
       "name": "EquipRent",
       "image": "./img/equiprent.jpeg",
-      "description": "A peer to peer web application providing users a platform to rent/borrow equipment from other users (outdoors, camping, etc.).",
+      "description": "EquipRent is a peer to peer web application providing users a platform to rent/borrow equipment from other users (outdoors, camping, etc.).",
       "site": "https://equiprent.herokuapp.com/"
     }, 
     {
         "id": 2,
         "name": "Social Celeb",
         "image": "./img/socialpic.jpg",
-        "description": "A social media data analytics web applciation providing information on likes and number of followers of social media influencers.",
+        "description": "Social Celeb data analytics web applciation providing information on likes and number of followers of social media influencers.",
         "site": "https://nameless-wave-15422.herokuapp.com/"
       },
       {
         "id": 3,
         "name": "Tasteful",
         "image": "./img/Tasteful-Salad.png",
-        "description": "Tasteful is a food search app oferring the user a personal and custom search to satisfy their next craving. Tasteful matches descriptive keywords of the desired food and the user’s personal food preferences resulting in a refined and precise search experience.",
+        "description": "Tasteful is a food search app that matches descriptive keywords of the user's desired food craving resulting in a refined and precise search experience.",
         "site": "https://tastefulteam.github.io/TastefulApp/"
       }
 ]

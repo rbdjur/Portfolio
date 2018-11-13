@@ -112,98 +112,28 @@ class Body extends Component {
                         <div id="description">
                         {stuff.description}
                         </div>
-
-
-                        {/* <div key={index}> 
                         
-                        </div> */}
-                        {/* <p key={index}>{stuff.description}</p> */}
                         </div>
                          ))}
+
+                        <div>
+                        </div> 
+
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
     
-                    </div>
-                 </div>
-            
-
-
-                /* <div className="work">
-                    <div className="p-title">
-                        Projects
-                    </div>
-
-                    <div className="p-one">
-                        One
-                    </div>
-
-
-                    <div className="p-two">
-                        Two
-                    </div>
-
-                    <div className="p-three">
-                        three
-                    </div>
-                </div>  */
-
-            // </div>
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            // <div id="hey">
-            //     <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" id="body">
-
-
-
-            //         <h4 id="work">
-            //             Projects 
-            //         </h4>
-
-            //         <div className="col-12" id="idk">
-
-
-            //             {this.state.projects.map(project => (
-            //                 <Work
-
-            //                     id={project.id}
-            //                     key={project.id}
-            //                     name={project.name}
-            //                     image={project.image}
-            //                     description={project.description}
-
-            //                     page={project.site}
-
-
-            //                     equipsite={this.clickEquip}
-            //                     socialsite={this.clickSocial}
-            //                     tastefulsite={this.clickTasteful}
-
-            //                 />
-
-
-            //             ))}
-
-
-            //         </div>
-
-
-            //     </div>
-            // </div>
-
-
+                </div>
+            </div>
         )
     }
 }

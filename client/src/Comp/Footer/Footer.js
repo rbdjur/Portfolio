@@ -111,16 +111,13 @@ class Footer extends Component {
     render() {
         return (
             <div className="f-container" id="footer">
-
                 <div className="header-one">
                     <p id="contact-cont">
                                 Bay Area, CA &nbsp; x &nbsp;
                                 Full-Stack Web Developer &nbsp; x &nbsp; 
                                 ronaldodeguzmanjr@gmail.com
                     </p>
-
-                {/* <div className="icon" id="icon"> */}
-
+                    
                         <i className="fab fa-github"
 
                             onClick={this.handleGithubClick}
@@ -151,15 +148,6 @@ class Footer extends Component {
                             href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
 
                         ></i>
-                        {/* </div> */}
-
-                        {/* <div className="text">
-                            <p id="contact-cont">
-                                Bay Area, CA &nbsp; x &nbsp;
-                                Full-Stack Web Developer &nbsp; x &nbsp; 
-                                ronaldodeguzmanjr@gmail.com
-                            </p>
-                        </div> */}
                 </div>
             </div >
         )
