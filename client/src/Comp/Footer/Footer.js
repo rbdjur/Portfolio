@@ -75,16 +75,23 @@ class Footer extends Component {
         return (
             <div className="f-container" id="footer">
                 <div className="header-one">
-                    <p id="contact-cont">
-                                Bay Area, CA &nbsp; x &nbsp;
-                                Full-Stack Web Developer &nbsp; x &nbsp; 
-                                ronaldodeguzmanjr@gmail.com
-                    </p>
-                {/* </div> */}
+                </div>
 
+                <div className="header-two">
+                    <p id="contact-cont">
+                        Bay Area, CA &nbsp; x &nbsp;
+                        Full-Stack Web Developer &nbsp; x &nbsp; 
+                        ronaldodeguzmanjr@gmail.com
+                    </p>
+                </div>
+
+                <div className="header-three">
+                </div>
+                
                 <div className="social">
                     <i className="fab fa-github" 
-                    onClick={this.handleGithubClick}id="i" 
+                    onClick={this.handleGithubClick}
+                    id="i" 
                     value={this.state.github}
                     target="_blank">
                     </i>
@@ -112,7 +119,7 @@ class Footer extends Component {
                     </i>
                 </div> 
 
-                </div>
+                {/* </div> */}
             </div>
         )
     }
