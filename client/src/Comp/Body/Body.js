@@ -31,25 +31,6 @@ class Body extends Component {
     click(e) {
         e.preventDefault();
         console.log("Title clicked");
-
-
-        //        let sites = [];
-        //         {this.state.projects.map(project => (
-        //             // console.log("urls to site - project.site", project.site)
-        //             // let project.site = project.site
-        //             sites.push(project.site)
-        //         )
-        //     ); 
-        //     console.log("sites array", sites);
-        //     console.log("sites array 0 + ", sites[0])
-        //     console.log("sites array 1 + ", sites[1])
-        //     console.log("sites array 2 + ", sites[2])
-        //     console.log("this.state.stuff", this.state.stuff);
-        //     this.setState({stuff:sites});
-        //     console.log("this.state.stuff", this.state.stuff);
-        // }
-
-
     }
 
     clickEquip(e) {

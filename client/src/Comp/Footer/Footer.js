@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import "./Footer.css"
 
-// import { BrowswerRouter as Router, Link } from 'react-router-dom'
-
-// import Route from 'react-router-dom/Route';
-
-
 class Footer extends Component {
     constructor(props) {
         super(props);
@@ -21,32 +16,22 @@ class Footer extends Component {
             github: "https://github.com/rbdjur",
             linkedin: "https://www.linkedin.com/in/ronaldodeguzman",
             twitter: "https://twitter.com/code_Ronaldo",
-            resume: "https://drive.google.com/file/d/1UFKFIkb0ivWzwLKLKyTGR3GkJYMKzqCg/view?usp=sharing",
-            // github:"https://github.com/rbdjur",
-            // linkedin:"www.linkedin.com/in/ronaldodeguzman",
-            // twitter:"https://twitter.com/code_Ronaldo",
+            resume: "https://drive.google.com/open?id=1nLLD328W2KrJhMQ2hKsgGvzg4onhXro5",
         };
-
-        // console.log("this.state.resumegoogledrive + ", this.state.resume);
-        // console.log("handleClick()", this.handleClick);
     }
 
     //GitHub Click
     handleGithubClick(e) {
         e.preventDefault();
-        console.log("clicked");
-        // console.log("inside handleClick - this.state.github should be assigning nothing", this.state.github);
+        console.log("clicked inside handleGithubClick");
+
+
         this.setState({ github: "https://github.com/rbdjur" })
 
-        console.log("this is the state of github after setState", this.state.github);
 
-        window.location.href = this.state.github;
+        // window.location.href = this.state.github;
+        window.open(this.state.github)
         // window.location(this.state.github);
-
-
-        // console.log("this is the state of github after setState", this.setState({github}));
-
-        // <Link to ={this.state.github}/>
     }
 
 
@@ -54,58 +39,36 @@ class Footer extends Component {
     //Twitter Click
     handleTwitterClick(e) {
         e.preventDefault();
-        console.log("clicked");
-        // console.log("inside handleClick - this.state.github should be assigning nothing", this.state.github);
+        console.log("clicked inside handleTwitterClick");
 
         this.setState({ twitter: "https://twitter.com/code_Ronaldo" })
 
-        console.log("this is the state of github after setState", this.state.twitter);
-
-        window.location.href = this.state.twitter;
-        // window.location(this.state.github);
-
-
-        // console.log("this is the state of github after setState", this.setState({github}));
-
-        // <Link to ={this.state.github}/>
+        window.open(this.state.twitter)
+    
     }
 
     //LinkedIn Click
     handleLinkedInClick(e) {
         e.preventDefault();
-        console.log("clicked");
-        // console.log("inside handleClick - this.state.github should be assigning nothing", this.state.github);
+        console.log("clicked inside handleLinkedClick");
 
         this.setState({ linkedin: "www.linkedin.com/in/ronaldodeguzman" })
 
-        console.log("this is the state of linkedin after setState", this.state.linkedin);
-
-        window.location.href = this.state.linkedin;
+        window.open(this.state.linkedin)
+        // window.location.href = this.state.linkedin;
         // window.location(this.state.github);
-
-
-        // console.log("this is the state of github after setState", this.setState({github}));
-
-        // <Link to ={this.state.github}/>
     }
 
     //Resume Click
     handleResumeClick(e) {
         e.preventDefault();
-        console.log("clicked");
-        // console.log("inside handleClick - this.state.github should be assigning nothing", this.state.github);
-
+        console.log("clicked inside handleResumeClick");
+       
         this.setState({ resume: "https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG" })
 
-        console.log("this is the state of resumegoogledrive after setState", this.state.resume);
-
-        window.location.href = this.state.resume;
+        window.open(this.state.resume)
+        // window.location.href = this.state.resume;
         // window.location(this.state.github);
-
-
-        // console.log("this is the state of github after setState", this.setState({github}));
-
-        // <Link to ={this.state.github}/>
     }
 
     render() {
