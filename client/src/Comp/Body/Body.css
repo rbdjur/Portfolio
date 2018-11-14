@@ -15,10 +15,11 @@
     grid-column: 2;
     grid-row: 1;
     text-align: center;
-    /* border: 2px solid purple; */
+    border: 2px solid pink;
     /* height:50px; */
     z-index:0;
     background-color:rosybrown;
+
     font-size:3rem;
     text-decoration:underline;
 }
@@ -37,7 +38,7 @@
     align-content: left;
     justify-content: left;
     justify-self: left;
-    background-color: lightgray
+    background-color: lightgray;
 }
 
 
@@ -89,11 +90,8 @@
     /* border: 2px solid black; */
     grid-column:2;
     grid-row: 2;
-
     display:flex;
-
     align-self: flex-end;
-
     flex-direction:row-reverse;
     align-items: flex-end;
     justify-self: center;
@@ -126,9 +124,4 @@
     padding: 10px;
     color: black;
     text-align:center
-
-    /* justify-self: center; */
-    /* align-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
 }

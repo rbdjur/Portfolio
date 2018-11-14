@@ -1,4 +1,6 @@
 #p {
+    /* display:grid;
+    grid-template-columns: repeat(2, 1fr); */
     margin-bottom: 2rem;
     margin-top:0rem;
     height:50%;
@@ -9,6 +11,7 @@
     /* background-color:cornsilk; */
     /* background-color:floralwhite */
     background-color:rosybrown;
+
 
     /* This is the closet match to the background of the skyline */
     /* background-color: ivory; */
