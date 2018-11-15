@@ -125,9 +125,8 @@ class Footer extends Component {
                     target="_blank">
                     </i>
                 </div> 
-
-                </div>
             </div>
+        </div>
         )
     }
 }
