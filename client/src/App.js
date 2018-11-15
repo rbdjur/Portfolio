@@ -29,13 +29,11 @@ class App extends Component {
     this.equipClick = this.equipClick.bind(this);
     this.socialClick = this.socialClick.bind(this);
     this.tastefulClick = this.tastefulClick.bind(this);
-    
+
     console.log("This is profiles imported", profiles)
     console.log("accessing the parralax property of the first index of the profiles array", profiles[0].parralax)
 
   }
-
-
 
   equipClick(e) {
     e.preventDefault();
@@ -51,7 +49,6 @@ class App extends Component {
     e.preventDefault();
     console.log("tasteful clicked");
   };
-
 
  showText(e) {
     e.preventDefault();

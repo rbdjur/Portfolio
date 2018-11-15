@@ -73,61 +73,144 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className="f-container" id="footer">
-
-                <div className="header-one">
+            <div className="f-container"
+            // id="footer"
+             >
+                <div className="left-header-1">
+                left-header row 1
                 </div>
 
-                <div className="header-two">
-                    <p id="contact-cont">
-
-
-                        Full-Stack Web Developer
-                         &nbsp; &nbsp;
-                        Bay Area, CA 
-                        &nbsp; &nbsp; 
-                        ronaldodeguzmanjr@gmail.com
-
-                        
-                    </p>
-                {/* </div> */}
-
-                <div className="header-three">
+                <div className="middle-header-1">
+                    <div className="text">
+                    Outlets To Contact Me
+                    </div> 
                 </div>
-                
-                <div className="social">
+
+                <div className="right-header-1">
+                right-header row 1
+                </div>
+
+                <div className="left-header-2">
+                left-header row 2
+                </div>
+
+                <div className="middle-header-2">
+                    {/* <div className="symbols"> */}
                     <i className="fab fa-github" 
                     onClick={this.handleGithubClick}
-                    id="i" 
+                    // id="i" 
                     value={this.state.github}
                     target="_blank">
                     </i>
 
                     <i className="fab fa-linkedin" 
                     onClick={this.handleLinkedInClick} 
-                    id="i" 
+                    // id="i" 
                     value={this.state.linkedin}
                     target="_blank">
                     </i>
 
                     <i className="fab fa-twitter-square"
                     onClick={this.handleTwitterClick}
-                    id="i"
+                    // id="i"
                     value={this.state.twitter}
                     target="_blank">
                     </i>
 
                     <i className="far fa-file-alt"
                     onClick={this.handleResumeClick}
-                    id="i"
+                    // id="i"
                     value={this.state.resumegoogledrive}
                     href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
                     target="_blank">
                     </i>
-                </div> 
+                    {/* </div> */}
+                </div>
+
+                <div className="right-header-2">
+                right-header row 2
+                </div>
+
             </div>
-        </div>
         )
     }
 }
 export default Footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <div className="f-container" id="footer">
+
+<div className="header-one">
+</div>
+
+<div className="header-two"  */
+
+// id="contact-cont"
+
+/* >
+    <p 
+    id="contact-cont"
+    >
+
+
+        Full-Stack Web Developer
+         &nbsp; &nbsp;
+         <br/>
+        Bay Area, CA 
+        &nbsp; &nbsp; 
+        <br/>
+        ronaldodeguzmanjr@gmail.com
+
+        
+    </p> */
+/* </div> */
+
+/* <div className="header-three">
+</div>
+
+<div className="social">
+    <i className="fab fa-github" 
+    onClick={this.handleGithubClick}
+    id="i" 
+    value={this.state.github}
+    target="_blank">
+    </i>
+
+    <i className="fab fa-linkedin" 
+    onClick={this.handleLinkedInClick} 
+    id="i" 
+    value={this.state.linkedin}
+    target="_blank">
+    </i>
+
+    <i className="fab fa-twitter-square"
+    onClick={this.handleTwitterClick}
+    id="i"
+    value={this.state.twitter}
+    target="_blank">
+    </i>
+
+    <i className="far fa-file-alt"
+    onClick={this.handleResumeClick}
+    id="i"
+    value={this.state.resumegoogledrive}
+    href="https://drive.google.com/open?id=1jylvbQxhLVVsJJhfRtEXmACXTSB8yyUG"
+    target="_blank">
+    </i>
+</div> 
+</div>
+</div> */
