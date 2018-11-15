@@ -74,6 +74,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="f-container" id="footer">
+
                 <div className="header-one">
                 </div>
 
@@ -89,7 +90,7 @@ class Footer extends Component {
 
                         
                     </p>
-                </div>
+                {/* </div> */}
 
                 <div className="header-three">
                 </div>
@@ -125,7 +126,7 @@ class Footer extends Component {
                     </i>
                 </div> 
 
-                {/* </div> */}
+                </div>
             </div>
         )
     }
