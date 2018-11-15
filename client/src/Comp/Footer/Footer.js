@@ -79,9 +79,15 @@ class Footer extends Component {
 
                 <div className="header-two">
                     <p id="contact-cont">
-                        Bay Area, CA &nbsp; x &nbsp;
-                        Full-Stack Web Developer &nbsp; x &nbsp; 
+
+
+                        Full-Stack Web Developer
+                         &nbsp; &nbsp;
+                        Bay Area, CA 
+                        &nbsp; &nbsp; 
                         ronaldodeguzmanjr@gmail.com
+
+                        
                     </p>
                 </div>
 
