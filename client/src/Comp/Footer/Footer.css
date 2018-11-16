@@ -5,9 +5,11 @@
     grid-template-rows: repeat(2,1fr);
     position:fixed;
     z-index: 1;
+    width:100%;
+    height:80px;
     background-color:salmon;
     color:whitesmoke;
-    font-size:12.0px;
+    font-size:20.0px;
 
     /* height: 900px; */
     /* padding-bottom:25px; */
@@ -108,7 +110,7 @@
     color:whitesmoke;
     /* padding-bottom: 4rem; */
     text-decoration: underline;
-    font-size: 
+    font-size: 20px;
 }
 
 .right-header-1 {
@@ -150,12 +152,13 @@
     text-align: center;
     justify-content: center;
     letter-spacing: 5px;
+    font-size: 25px;
 
 }
 
 .right-header-2 {
     display:grid;
-    grid-column:9;
+    grid-column: 9;
     grid-row:2;
     border: solid 1px purple;
 }

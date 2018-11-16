@@ -76,9 +76,9 @@ class Footer extends Component {
             <div className="f-container"
             // id="footer"
              >
-                <div className="left-header-1">
+                {/* <div className="left-header-1">
                 left-header row 1
-                </div>
+                </div> */}
 
                 <div className="middle-header-1">
                     <div className="text">
@@ -86,13 +86,13 @@ class Footer extends Component {
                     </div> 
                 </div>
 
-                <div className="right-header-1">
+                {/* <div className="right-header-1">
                 right-header row 1
-                </div>
+                </div> */}
 
-                <div className="left-header-2">
+                {/* <div className="left-header-2">
                 left-header row 2
-                </div>
+                </div> */}
 
                 <div className="middle-header-2">
                     {/* <div className="symbols"> */}
@@ -127,9 +127,9 @@ class Footer extends Component {
                     {/* </div> */}
                 </div>
 
-                <div className="right-header-2">
+                {/* <div className="right-header-2">
                 right-header row 2
-                </div>
+                </div> */}
 
             </div>
         )
