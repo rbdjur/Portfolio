@@ -78,9 +78,13 @@ class Body extends Component {
                         <div id="description">
                             {stuff.description}
                         </div>
-                        
                         </div>
                          ))}
+
+                         
+                        <div>
+                        </div>
+
                         <div>
                         </div> 
                 </div>

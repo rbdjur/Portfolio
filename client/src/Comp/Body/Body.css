@@ -15,11 +15,11 @@
     grid-column: 2;
     grid-row: 1;
     text-align: center;
-    border: 2px solid pink;
+    border: 3px solid pink;
     /* height:50px; */
     z-index:0;
     background-color:rosybrown;
-
+    color:white;
     font-size:3rem;
     text-decoration:underline;
 }
@@ -95,6 +95,7 @@
     flex-direction:row-reverse;
     align-items: flex-end;
     justify-self: center;
+    font-size:2rem;
 
     /* justify-content: center; */
     
@@ -114,14 +115,18 @@
 }
 
 #description {
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
     grid-column: 2;
     grid-row:3;
     display:flex;
     /* justify-items: center; */
     justify-content: center;
-    margin: 10px;
-    padding: 10px;
+    /* margin: 5px;
+    padding: 5px; */
+
+    padding-top:2px;
+    padding-bottom:2px;
     color: black;
-    text-align:center
+    text-align:center;
+    font-size: 25px;
 }

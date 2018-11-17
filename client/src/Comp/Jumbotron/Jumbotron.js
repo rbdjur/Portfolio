@@ -113,7 +113,7 @@ class Jumbotron extends Component {
                 
                             <br/>
                             <br/>
-                            For further work experience please visit my LinkedIn page by clicking on the LinkedIn icon in the footer. 
+                            For further work experience please visit my LinkedIn page under "Outlets To Contact Me" in the footer. 
                         </p>
                 </div>
 

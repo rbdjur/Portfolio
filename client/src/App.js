@@ -64,6 +64,7 @@ class App extends Component {
         <Footer/>
         <Para background={this.state.profiles[0].parralax} />  
         <Body projects={projects}/>
+        {/* <Footer/> */}
       </div>
     );
   }

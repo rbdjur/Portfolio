@@ -8,10 +8,16 @@ const Para = (props) => (
       blur={0}
       bgImage={props.background}
       bgImageAlt="San Francisco Skyline"
-      strength={120}
+      strength={140}
     >
-    
-    <div style={{ height: '665px' }} />
+
+    <div>
+      <p id="local">
+      Bay Area, CA
+      </p>
+    </div>
+    {/* <div style={{ height: '665px' }} /> */}
+    <div style={{ height: '1000px' }} />
       </Parallax>
     </div>
     );

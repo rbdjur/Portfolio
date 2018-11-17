@@ -5,17 +5,27 @@
     margin-top:0rem;
     height:50%;
     width: 100%;
-    border: 2px solid green;
+    /* border: 2px solid red; */
+
+
+    /* font-size: 50px;
+    color: white;
+    text-align: center; */
+
 
     /* potential options */
     /* background-color:cornsilk; */
     /* background-color:floralwhite */
     background-color:rosybrown;
-
-
     /* This is the closet match to the background of the skyline */
     /* background-color: ivory; */
+}
 
-    
-
+#local {
+    /* border: 1px solid blue; */
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    /* margin-bottom: 50px; */
+    padding-bottom:110px;
 }
