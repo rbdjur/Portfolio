@@ -11,7 +11,7 @@ class Body extends Component {
         this.clickEquip = this.clickEquip.bind(this)
         this.clickSocial = this.clickSocial.bind(this)
         this.clickTasteful = this.clickTasteful.bind(this)
-        this.click = this.click.bind(this);
+        this.onImage = this.click.bind(this);
 
         this.state = {
             projects,
@@ -27,6 +27,11 @@ class Body extends Component {
 
         console.log("projects - tasteful- images", this.state.projects[1].image);
     }
+
+    mouse(e) {
+        console.log("mouse over onImage fxn - inside fxn.");
+        alert("moused over image successful");
+        }
 
     click(e) {
         e.preventDefault();
@@ -47,10 +52,7 @@ class Body extends Component {
         console.log("equiprent click - this.state", this.state.equiprent);
         window.location.href = this.state.tasteful;
     }
-
   
-
-
     render() {
         return (
             <div>
@@ -61,9 +63,18 @@ class Body extends Component {
                     </div>
 
                     {this.state.projects.map((stuff, i) => (
-                        <div className="p-one" id="projects" key={stuff.id}>
+
+                        <div className="p-one"      id="projects" key={stuff.id}>
                         
-                        <div id="image">
+                        <div id="image" 
+                        //Directly below, this function works being passed down as a prop, "img"
+                        // onMouseOver={this.props.img}
+
+                        // Experimenting with defining a method in the component
+                        onMouseOver={this.mouse}
+
+
+                        >
                             <img src={stuff.image} alt={stuff.name} />
                         </div>
                         
@@ -78,6 +89,7 @@ class Body extends Component {
                         <div id="description">
                             {stuff.description}
                         </div>
+
                         </div>
                          ))}
 

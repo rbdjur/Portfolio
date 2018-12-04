@@ -109,7 +109,8 @@ class Jumbotron extends Component {
                     <h1><Badge id="title" color="light">Experience / Background</Badge></h1>
 
                         <p id="spacing">
-                            I have work experience in the health and medical industry working with patients in clinical and outpatient setting as well as with M.D.'s and researchers at University of California, San Francisco. 
+                            I have work experience in the health and medical 
+                            industry working with patients in clinical and outpatient setting as well as with M.D.'s and researchers at University of California, San Francisco. 
                 
                             <br/>
                             <br/>
@@ -120,16 +121,19 @@ class Jumbotron extends Component {
                 <div className="two">
                         <h1><Badge id="title" color="light"> Technologies</Badge></h1>
                             <p id="spacing">
-                                React.Js
+                                Currently, I use React.JS
                             <i className="fab fa-react" id="react"></i>
+
                             &nbsp;and&nbsp;Javascript <i className="fab fa-js" id="javascript"></i> 
                             &nbsp;
 
-                                are examples of a library and computer programming language I am most familiar with, respectively.
+                                {/* are examples of a library and computer programming language I am most familiar with, respectively. */}
+
+                                to build single / multi page applications. 
                                 <br/>
                                 <br/>
 
-                                I have previous experience using Node.jS, JQuery, HTML, CSS, MongoDB, MySQL, and Handlebars.js. 
+                                I have previous experience using Node.js, JQuery, Express, HTML, CSS, MongoDB, MySQL, and Handlebars.js. 
                             </p>
                 </div>
 
@@ -161,7 +165,7 @@ class Jumbotron extends Component {
                 <div className="four">
                     <h1><Badge id="title" color="light">Portfolio</Badge></h1>
                         <p id="spacing">
-                        This portolio is a space to showcase my projects and work.  Currently, this page is built using React.js and Javscript.  As I build my skillset using other languages, I want to use my portofolio as a location to practice and track my progression.  
+                        My portolio is a space to showcase projects.  Currently, this page is built using React.js and Javscript.  As I build my skillset using other languages, I want to use my portofolio as a location to practice and track my progression.  
                         </p>
                 </div>
     </div>

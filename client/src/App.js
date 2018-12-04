@@ -29,6 +29,7 @@ class App extends Component {
     this.equipClick = this.equipClick.bind(this);
     this.socialClick = this.socialClick.bind(this);
     this.tastefulClick = this.tastefulClick.bind(this);
+    this.onImage = this.onImage.bind(this);
 
     console.log("This is profiles imported", profiles)
     console.log("accessing the parralax property of the first index of the profiles array", profiles[0].parralax)
@@ -56,6 +57,11 @@ class App extends Component {
     alert("Mouse moved");
   }
 
+  onImage(e) {
+    console.log("mouse over onImage fxn - inside fxn.");
+    alert("did it");
+  }
+
   render() {
     return (
       <div >
@@ -63,7 +69,7 @@ class App extends Component {
         {/* <Info mouse={this.showText} /> */}
         <Footer/>
         <Para background={this.state.profiles[0].parralax} />  
-        <Body projects={projects}/>
+        <Body projects={projects} img={this.onImage}/>
         {/* <Footer/> */}
       </div>
     );
